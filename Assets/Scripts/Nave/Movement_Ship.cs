@@ -36,6 +36,15 @@ public class Movement_Ship : MonoBehaviour
     public void ShipRotation()
     {
         //this method is designed to control the ship rotation with the mouse position
+        
+        /* Used references to make this method: 
+        Marcos Schultz - video Youtube ensinando mecanicas da unity - 
+        https://www.youtube.com/watch?v=6nzWIsztYBE
+
+        SatellaSoft - video Youtube ensinando mecanicas da unity - 
+        https://www.youtube.com/watch?v=WlpmyDArV7Q
+        */
+
         if(!Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit))
             return;
         

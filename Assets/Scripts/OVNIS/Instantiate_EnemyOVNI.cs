@@ -9,7 +9,8 @@ public class Instantiate_EnemyOVNI : MonoBehaviour
     [SerializeField] GameObject enemyToInstatiate;
 
     // This section controls the POSITION where the enemy will be instatiate
-    Vector3 PositionToInstantiate;
+    [SerializeField] Vector3 positionRightLimit, positionLeftLimit, positionToInstantiate;
+
 
     //This section controls the TIME to instantiate the enemys 
     bool canInstantiate = true;
@@ -18,7 +19,8 @@ public class Instantiate_EnemyOVNI : MonoBehaviour
 
     void Start()
     {
-
+        positionLeftLimit = GameObject.Find("MonitorLimitLeft").transform.position;
+        positionRightLimit = GameObject.Find("MonitorLimitRight").transform.position;
     }
 
     void FixedUpdate()
@@ -33,7 +35,7 @@ public class Instantiate_EnemyOVNI : MonoBehaviour
         {
             canInstantiate = false;
             SideToInstantiate_Selection();
-            yield return new WaitForSeconds(2.0f);
+            yield return new WaitForSeconds(3.0f);
             canInstantiate = true;
         }
     }
@@ -48,19 +50,19 @@ public class Instantiate_EnemyOVNI : MonoBehaviour
         {
             case 0:
             //top
-                EnemyBySideInstantiate(enemyToInstatiate, -28.0f, 28.0f, 15.0f, 17.0f);
+                EnemyBySideInstantiate(enemyToInstatiate, (positionLeftLimit.x - 2), (positionRightLimit.x + 2), positionRightLimit.z, (positionRightLimit.z + 2));
                 break;
             case 1:
             //bottom
-                EnemyBySideInstantiate(enemyToInstatiate, -28.0f, 28.0f, -17.0f, -15.0f);
+                EnemyBySideInstantiate(enemyToInstatiate, (positionLeftLimit.x - 2), (positionRightLimit.x + 2), (positionLeftLimit.z - 2), positionLeftLimit.z);
                 break;
             case 2:
             //left
-                EnemyBySideInstantiate(enemyToInstatiate, -28.0f, -26.0f, -17.0f, 17.0f);
+                EnemyBySideInstantiate(enemyToInstatiate, (positionLeftLimit.x - 2), positionLeftLimit.x, (positionLeftLimit.z - 2), (positionRightLimit.z + 2));
                 break;
             case 3:
             //right
-                EnemyBySideInstantiate(enemyToInstatiate, 26.0f, 28.0f, -17.0f, 17.0f);
+                EnemyBySideInstantiate(enemyToInstatiate, positionRightLimit.x, (positionRightLimit.x + 2), (positionLeftLimit.z - 2), (positionRightLimit.z + 2));
                 break;
         }
     }
@@ -71,14 +73,13 @@ public class Instantiate_EnemyOVNI : MonoBehaviour
 
     }
 
-    public void EnemyBySideInstantiate(GameObject enemyType, float xMin, float xMax, float yMin, float yMax)
+    public void EnemyBySideInstantiate(GameObject enemyType, float xMin, float xMax, float zMin, float zMax)
     {
         // This is a generic method to instantiate the type of enemy at designed area (top, bottom, right or left) defined by a random system's choice
-        float xPos, yPos;
+        float xPos, zPos;
         xPos = Random.Range(xMin, xMax);
-        yPos = Random.Range(yMin, yMax);
-        Vector3 positionToInstantiate;
-        positionToInstantiate = new Vector3(xPos, yPos, 23.0f);
+        zPos = Random.Range(zMin, zMax);
+        positionToInstantiate = new Vector3(xPos, 414, zPos);
         Instantiate(enemyType, positionToInstantiate, Quaternion.identity, transform);
     }
      
