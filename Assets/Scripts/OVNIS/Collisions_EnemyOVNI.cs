@@ -2,22 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof (CapsuleCollider))]
 public class Collisions_EnemyOVNI : MonoBehaviour
 {
     //Barra de Vida
     [SerializeField] Transform lifeBar;
 
-    void Start()
-    {
-        
-    }
-
     private void OnTriggerEnter(Collider other) {
 
         if(other.name == "Ammo")
         {
+            Destroy(other.gameObject);
             GetDamage(0.5f);
-            Destroy(other);
             if(lifeBar.localScale.y <= 0)
             {
                 Destroy(gameObject);

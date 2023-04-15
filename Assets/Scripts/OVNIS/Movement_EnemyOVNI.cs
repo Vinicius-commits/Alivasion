@@ -20,7 +20,7 @@ public class Movement_EnemyOVNI : MonoBehaviour
     void EnemyMovement()
     {
         direction = Vector3.forward;
-        transform.LookAt(GameObject.Find("Ship").transform.position);
+        transform.LookAt(GameObject.Find("PlayerShip").transform.position);
         transform.Translate(direction * speed * Time.deltaTime);
     }
 }
