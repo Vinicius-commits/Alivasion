@@ -347,6 +347,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Generic/SceneChange.cs"
 "Assets/Scripts/Hud/HudManagement.cs"
+"Assets/Scripts/Hud/MoveInScene.cs"
 "Assets/Scripts/Nave/Collisions_Ship.cs"
 "Assets/Scripts/Nave/Movement_Ship.cs"
 "Assets/Scripts/Nave/Movement_ShipAmmunition.cs"

@@ -23,7 +23,7 @@ public class Movement_ShipAmmunition : MonoBehaviour
     public void Movement()
     {
         direction = Vector3.forward * shotSpeed;
-        rb.AddForce(direction, ForceMode.Impulse);
+        //rb.AddForce(direction, ForceMode.Impulse);
         transform.Translate(direction, transform);
     }
 

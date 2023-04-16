@@ -34,7 +34,7 @@ public class Collisions_EnemyOVNI : MonoBehaviour
         float newLife = lifeBar.localScale.y;
         newLife -= damage;
         lifeBar.localScale = new Vector3(1.0f, newLife, 1.0f);
-        
-        scorePlacar.GetScore(killValue);
+        if(newLife <= 0)
+            scorePlacar.GetScore(killValue);
     }
 }

@@ -19,13 +19,14 @@ public class Instantiate_EnemyOVNI : MonoBehaviour
 
     void Start()
     {
-        positionLeftLimit = GameObject.Find("MonitorLimitLeft").transform.position;
-        positionRightLimit = GameObject.Find("MonitorLimitRight").transform.position;
+        
     }
 
     void FixedUpdate()
     {
         // SideInstantiate(gameObject, 1.0f, 1.5f, 1.0f, 1.5f);
+        positionLeftLimit = GameObject.Find("MonitorLimitLeft").transform.position;
+        positionRightLimit = GameObject.Find("MonitorLimitRight").transform.position;
         StartCoroutine(InstantiateControlTime());
     }
 

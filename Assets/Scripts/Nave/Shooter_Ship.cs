@@ -25,7 +25,7 @@ public class Shooter_Ship : MonoBehaviour
             canCast = false;
             Instantiate(ammo, aim.position, ship.rotation, aim);
             //Instantiate(ammo, aim.position, aim.rotation);
-            yield return new WaitForSeconds(1.0f);
+            yield return new WaitForSeconds(0.5f);
             canCast = true;
         }
     }

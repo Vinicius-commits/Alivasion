@@ -8,7 +8,7 @@ public class Movement_EnemyOVNI : MonoBehaviour
 
     void Start()
     {
-        speed = 2.0f;
+        speed = 10.0f;
         direction = new Vector3();
     }
 

@@ -19,6 +19,8 @@ public class HudManagement : MonoBehaviour
     {
         score += addScoreValue;
         scorePlacar.text = score.ToString();
+        if(score >= 25)
+            SceneChange.ChangeScene("GameWon");
          
     }
 }
