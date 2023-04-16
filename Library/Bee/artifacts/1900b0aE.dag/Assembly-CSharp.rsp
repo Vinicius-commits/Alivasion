@@ -355,6 +355,7 @@
 "Assets/Scripts/OVNIS/Collisions_EnemyOVNI.cs"
 "Assets/Scripts/OVNIS/Instantiate_EnemyOVNI.cs"
 "Assets/Scripts/OVNIS/Movement_EnemyOVNI.cs"
+"Assets/Scripts/PowerUps/Instantiate_PowerUps.cs"
 "Assets/Scripts/Testes/Teste1.cs"
 "Assets/Scripts/Testes/Teste2.cs"
 -langversion:9.0

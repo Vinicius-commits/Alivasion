@@ -156,6 +156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4235760177730463846}
   - component: {fileID: 3222751566085313555}
+  - component: {fileID: 7722860063046912945}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -192,6 +193,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d48f53c43a24c534b91e85506723ae00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7722860063046912945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4235760177730463841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b93ede7ae3d83b4ba8bb5e40b354b4f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUps_Types:
+  - {fileID: 4021613237930530166, guid: 13d1e4ecfc4e48746bd71abcc62f8a23, type: 3}
+  - {fileID: 5565093187721849034, guid: bcc7f4c2acbccc7439b5b44489853c6e, type: 3}
+  - {fileID: 841093413363898137, guid: 84012a52a4d9c654ea286879dce053cf, type: 3}
+  powerUp_Selected: {fileID: 0}
+  randomChoice: 0
+  chanceToInstantiate: 0
 --- !u!1 &6831685842017162595
 GameObject:
   m_ObjectHideFlags: 0

@@ -23,8 +23,7 @@ public class Collisions_EnemyOVNI : MonoBehaviour
             GetDamage(2.0f);
             if(lifeBar.localScale.y <= 0)
             {
-                Destroy(gameObject);
-                Destroy(lifeBar.gameObject);
+                Destroy(transform.parent.gameObject);
             }
         }
     }

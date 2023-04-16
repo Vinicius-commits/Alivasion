@@ -46,8 +46,9 @@
      <Compile Include="Assets\Scripts\Nave\Shooter_Ship.cs" />
      <Compile Include="Assets\Scripts\Nave\Movement_ShipAmmunition.cs" />
      <Compile Include="Assets\Scripts\Testes\Teste1.cs" />
-     <Compile Include="Assets\Scripts\Nave\Collisions_Ship.cs" />
      <Compile Include="Assets\Scripts\Hud\MoveInScene.cs" />
+     <Compile Include="Assets\Scripts\Nave\Collisions_Ship.cs" />
+     <Compile Include="Assets\Scripts\PowerUps\Instantiate_PowerUps.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

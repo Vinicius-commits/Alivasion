@@ -5,14 +5,13 @@ using UnityEngine;
 public class Movement_Ship : MonoBehaviour
 {
     [SerializeField] Vector3 direction;
-    [SerializeField] float speed, rotSpeed;
+    [SerializeField] float speed;
     [SerializeField] Ray ray;
     [SerializeField] RaycastHit hit;
     [SerializeField] Transform shipTransform, aimTransform;
 
     void Start() {
         speed = 100.0f;
-        rotSpeed = 5.0f;
         shipTransform = transform.GetChild(0);
     }
 

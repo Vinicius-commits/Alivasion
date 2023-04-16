@@ -7,12 +7,14 @@ public class Collisions_Ship : MonoBehaviour
 {
     //Life Bar
     [SerializeField] Stack<GameObject> hearts = new Stack<GameObject>();
+    [SerializeField] GameObject life_Slot, hearts_Slots;
 
     void Start()
     {
-        for(int heartCount = 0; GameObject.Find("Hearts").transform.childCount > heartCount; heartCount++)
+        hearts_Slots = GameObject.Find("Hearts");
+        for(int heartCount = 0; hearts_Slots.transform.childCount > heartCount; heartCount++)
         {
-            hearts.Push(GameObject.Find("Hearts").transform.GetChild(heartCount).gameObject);
+            hearts.Push(hearts_Slots.transform.GetChild(heartCount).gameObject);
             Debug.Log(hearts.Peek());
         }
     }
@@ -21,7 +23,18 @@ public class Collisions_Ship : MonoBehaviour
         if(other.transform.parent.name == "Enemy(Clone)" || other.transform.parent.name == "Enemy")
         {
             GetDamage();
+        } else if(other.name == "EnergyPwrUp(Clone)")
+        {
+            GetHeal();
+            Destroy(other);
         }
+    }
+
+    public void GetHeal()
+    {
+        Transform positionToInstantiate = hearts.Peek().transform;
+        
+        Instantiate(life_Slot, hearts_Slots.transform);
     }
 
     public void GetDamage()
