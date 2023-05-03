@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 209794168609127149}
   - component: {fileID: 4397471814102322510}
   - component: {fileID: 5422214379392618955}
+  - component: {fileID: 4047055261692576017}
   m_Layer: 0
   m_Name: EnemyOVNI
   m_TagString: Untagged
@@ -62,7 +63,23 @@ CapsuleCollider:
   m_Radius: 5.9613495
   m_Height: 16.914368
   m_Direction: 2
-  m_Center: {x: 0, y: -0.3950348, z: -2.3993874}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &4047055261692576017
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655488315600009519}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 4
+  m_CollisionDetection: 0
 --- !u!1 &2679771843625331144
 GameObject:
   m_ObjectHideFlags: 0

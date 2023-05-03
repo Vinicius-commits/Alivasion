@@ -3,12 +3,12 @@ using UnityEngine;
 public class Movement_EnemyOVNI : MonoBehaviour
 {
     //Movement
-    float speed;
-    Vector3 direction;
+    [SerializeField] float speed;
+    [SerializeField] Vector3 direction;
 
     void Start()
     {
-        speed = 10.0f;
+        speed = 30.0f;
         direction = new Vector3();
     }
 

@@ -1,0 +1,653 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1681674005843339, "dur": 700764, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681674005843727, "dur": 10746, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681674005854478, "dur": 679511, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681674006533991, "dur": 10111, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681674006544788, "dur": 17, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681674005892687, "dur":1848, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674005894552, "dur":241, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681674005894908, "dur":104, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681674005895013, "dur":915, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681674005895995, "dur":1102, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674005897097, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513457, "dur":91, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513548, "dur":35, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513583, "dur":160, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513743, "dur":60, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513803, "dur":12, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513815, "dur":110, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513925, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513929, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513941, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513943, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513952, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513954, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513965, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513968, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513979, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513982, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006513991, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006514022, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006514068, "dur":2918, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681674005896294, "dur":819, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005897116, "dur":5714, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005902856, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681674005902866, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005902924, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681674005902926, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005903032, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005904893, "dur":4372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681674005909266, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1681674005909328, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005909390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005910212, "dur":2308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1681674005912599, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1681674005912845, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005912919, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005912938, "dur":4821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1681674005917851, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1681674005917945, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005917998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005918012, "dur":16609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1681674005934754, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1681674005934820, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005934898, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005935573, "dur":17024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1681674005952682, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674005952732, "dur":446, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005953196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005953210, "dur":6327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674005959583, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674005959601, "dur":2044, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005961660, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005961694, "dur":21528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674005983252, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674005983282, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005983334, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674005983381, "dur":19659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674006003074, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674006003116, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674006003168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674006003181, "dur":6357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674006009563, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674006009580, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674006009732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674006009741, "dur":6883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674006016646, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674006016666, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674006016730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674006016740, "dur":42588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674006059387, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674006059538, "dur":168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674006059714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674006059728, "dur":10020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674006069769, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674006069786, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674006069946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674006069959, "dur":42219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674006112207, "dur":398206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674006510414, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674006510532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681674006510546, "dur":2804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681674006513389, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1681674006513393, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005896419, "dur":703, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005897122, "dur":5710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005902855, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1681674005903114, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005903240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005915538, "dur":3052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1681674005918738, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1681674005918817, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005918866, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005918892, "dur":2619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1681674005921579, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674005921649, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005921697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005921799, "dur":16179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674005938050, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674005938106, "dur":1204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005939323, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005939340, "dur":15318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674005954711, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674005954738, "dur":1788, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005956551, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005956779, "dur":4839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674005961645, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674005961725, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005961824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005961832, "dur":5995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674005967879, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674005967907, "dur":303, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005968220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005968234, "dur":9355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674005977616, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674005977636, "dur":185, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005977837, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674005977858, "dur":30470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006008357, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006008483, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006008564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006008576, "dur":48046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006056650, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006056829, "dur":256, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006057096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006057112, "dur":4227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006061369, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006061393, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006061553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006061696, "dur":4945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006066666, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006066686, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006066849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006066860, "dur":45394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006112276, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006112295, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006112363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006112374, "dur":21404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006133803, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006133823, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006133868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006133879, "dur":37417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006171322, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006171343, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006171409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006171420, "dur":2242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006173695, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006173726, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006173776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006173803, "dur":2178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006176007, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006176026, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006176071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006176133, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006178042, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006178073, "dur":4625, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006182712, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006182733, "dur":23189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006205950, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006205971, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006206109, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006206120, "dur":8943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006215089, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006215110, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006215161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006215173, "dur":4251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006219452, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006219473, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006219620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006219633, "dur":4548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006224220, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006224242, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006224322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006224334, "dur":13913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681674006238277, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1681674006238319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006238394, "dur":2601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1681674006241026, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681674006241056, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006241066, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681674006242761, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681674006242785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006242795, "dur":5334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681674006248181, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681674006248246, "dur":16, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006248276, "dur":3259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681674006251578, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006251635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006251650, "dur":4724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006256399, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006256422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006256432, "dur":3679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006260136, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681674006260161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006260171, "dur":7139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1681674006267344, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1681674006267531, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006267599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006267609, "dur":2249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1681674006269884, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level7.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006269911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006269920, "dur":1509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level7.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006271451, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level6.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006271471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006271480, "dur":3326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level6.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006274846, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1681674006274870, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006274881, "dur":5797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level5" }}
+,{ "pid":12345, "tid":2, "ts":1681674006280710, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006280737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006280749, "dur":4230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006285003, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006285026, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006285036, "dur":2967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006288033, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006288063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681674006288076, "dur":4915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681674006293012, "dur":220516, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674005896566, "dur":578, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674005897144, "dur":5694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674005902856, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1681674005903194, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674005903261, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674005915674, "dur":19309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1681674005935067, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681674005935124, "dur":276, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674005935461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674005935799, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681674005938068, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681674005938116, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674005938160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674005938287, "dur":14361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681674005952686, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681674005952725, "dur":457, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674005953194, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674005953210, "dur":8082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681674005961326, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681674005961345, "dur":489, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674005961844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674005961855, "dur":5086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681674005966962, "dur":308579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681674006275541, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674006275630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674006275638, "dur":15060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681674006290724, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1681674006290747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681674006290757, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1681674006292756, "dur":220783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674005896471, "dur":658, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674005897130, "dur":5705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674005902857, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1681674005903035, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674005903135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674005906863, "dur":2447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1681674005909375, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681674005909440, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674005909525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674005910150, "dur":4268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1681674005914504, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1681674005914573, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674005914615, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674005914718, "dur":26585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1681674005941415, "dur":9498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674005950914, "dur":197, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674005951124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674005951138, "dur":7677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674005958845, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674005958876, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674005959053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674005959067, "dur":34994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674005994093, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674005994113, "dur":7025, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006001152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006001166, "dur":7584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674006008774, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674006008795, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006008909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006008920, "dur":4854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674006013822, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674006013846, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006013903, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006017047, "dur":50401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674006067471, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674006067490, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006067613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006067623, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674006070803, "dur":198829, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674006269633, "dur":442, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006270240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006270260, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681674006272225, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1681674006272257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006272268, "dur":3995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level6" }}
+,{ "pid":12345, "tid":4, "ts":1681674006276285, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1681674006276305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006276313, "dur":2557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1681674006278890, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1681674006278912, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006278923, "dur":6996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1681674006285953, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1681674006285976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006285986, "dur":2975, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1681674006288988, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681674006289016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681674006289028, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681674006291859, "dur":221599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005896511, "dur":626, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005897138, "dur":5744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005902882, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1681674005903042, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005903153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005912625, "dur":6449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1681674005919142, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1681674005919203, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005919245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005919256, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1681674005921956, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674005922015, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005922072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005922079, "dur":39173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674005961453, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674005961514, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005961828, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005961839, "dur":4659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674005966529, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674005966551, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005966605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005966615, "dur":4662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674005971339, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674005971361, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005971442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674005971454, "dur":38013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674006009492, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674006009510, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006009591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006009599, "dur":4470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674006014094, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674006014113, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006014161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006014172, "dur":40087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674006054286, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674006054306, "dur":1957, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006056278, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006056295, "dur":9503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674006065855, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674006065898, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006066002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006066020, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674006068404, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674006068423, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006068572, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006068636, "dur":2756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674006071424, "dur":177948, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674006249374, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006249465, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006249478, "dur":6527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681674006256034, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681674006256117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006256128, "dur":2184, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681674006258375, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681674006258418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006258429, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681674006260259, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681674006260285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006260292, "dur":3660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681674006263985, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681674006264053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006264064, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681674006266138, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681674006266163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006266174, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1681674006267661, "dur":1185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1681674006268847, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006268922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006268933, "dur":2057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1681674006271030, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level7" }}
+,{ "pid":12345, "tid":5, "ts":1681674006271067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006271080, "dur":1707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level7" }}
+,{ "pid":12345, "tid":5, "ts":1681674006272813, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level5.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681674006272847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006272857, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level5.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681674006275469, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681674006275526, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006275535, "dur":3245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level4.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681674006278882, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681674006278914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006278923, "dur":5454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level3.resS" }}
+,{ "pid":12345, "tid":5, "ts":1681674006284412, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1681674006284461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006284472, "dur":3653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1681674006288143, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1681674006288162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006288169, "dur":2776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1681674006290967, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1681674006291279, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006291382, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681674006291392, "dur":1886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1681674006293301, "dur":220139, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005896616, "dur":541, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005897157, "dur":5687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005902857, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1681674005903057, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005903169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005913097, "dur":3956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1681674005917120, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1681674005917185, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005917229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005917243, "dur":1966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1681674005919276, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005919355, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005919425, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005919712, "dur":2392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005922176, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1681674005922249, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005922302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005922309, "dur":5343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1681674005927760, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion.exe" }}
+,{ "pid":12345, "tid":6, "ts":1681674005927846, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005928127, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005928144, "dur":12305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion.exe" }}
+,{ "pid":12345, "tid":6, "ts":1681674005940486, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005940570, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005940692, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005940719, "dur":17685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005958440, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005958481, "dur":564, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005959054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005959069, "dur":4762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005963865, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005964091, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005964335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005964350, "dur":4161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005968549, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005968569, "dur":560, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005969147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005969163, "dur":2737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005971937, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005971980, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005972040, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005972051, "dur":2441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005974527, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005974546, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005974608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005974621, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005976362, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005976381, "dur":252, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005976642, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005976656, "dur":4704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005981386, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005981408, "dur":228, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005981646, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005981667, "dur":2270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005983965, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674005983990, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005984094, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674005984105, "dur":17595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674006001724, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674006001746, "dur":2102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674006003863, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674006003883, "dur":55784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674006059694, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674006059747, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674006059854, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674006059862, "dur":4705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674006064612, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674006064634, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674006064714, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674006064728, "dur":2388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674006067139, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674006067159, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674006067202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674006067213, "dur":2677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674006069924, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674006069942, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674006069985, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674006069993, "dur":3300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674006073321, "dur":213815, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674006287138, "dur":11451, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674006298600, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681674006298613, "dur":2793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681674006301440, "dur":212048, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005896677, "dur":487, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005897165, "dur":5677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005902856, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1681674005903033, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005903128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005906333, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1681674005909259, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1681674005909342, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005909411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005910148, "dur":3076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1681674005913309, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1681674005913381, "dur":140, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005913533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005915903, "dur":2432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1681674005918397, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1681674005918454, "dur":465, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005918927, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005918939, "dur":19573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1681674005939048, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005939143, "dur":969, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005940139, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005940167, "dur":16736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005956935, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005957003, "dur":699, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005957728, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005957758, "dur":9017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005966815, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005966833, "dur":346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005967188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005967202, "dur":4919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005972140, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005972164, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005972204, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005972245, "dur":3367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005975668, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005975702, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005975749, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005975761, "dur":2825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005978615, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005978636, "dur":636, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005979280, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005979291, "dur":3047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005982369, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005982396, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005982471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005982485, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005984650, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674005984675, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005984728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674005984742, "dur":17051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674006001815, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674006001836, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674006001908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674006001919, "dur":7572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674006009513, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674006009531, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674006009585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674006009596, "dur":4465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674006014243, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674006014261, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674006014350, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674006014360, "dur":1981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674006016373, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674006016397, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674006016449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674006016463, "dur":52969, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674006069462, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674006069489, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674006069581, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674006069594, "dur":2861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674006072480, "dur":210458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674006282939, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674006283186, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681674006283198, "dur":18316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681674006301533, "dur":211936, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005896721, "dur":449, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005897170, "dur":5677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005902855, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1681674005903108, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005903231, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005914075, "dur":36401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1681674005950572, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674005950620, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005950665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005950678, "dur":8575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674005959277, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674005959295, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005959372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005959381, "dur":3190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674005962604, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674005962660, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005962744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005962758, "dur":6967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674005969751, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674005969774, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005969882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005969893, "dur":8068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674005977983, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674005978123, "dur":1123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005979261, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674005979278, "dur":89003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006068309, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006068332, "dur":242, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006068583, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006068711, "dur":3917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006072665, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006072688, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006072741, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006072779, "dur":87065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006159882, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006159914, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006159989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006160003, "dur":3486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006163515, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006163535, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006163597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006163608, "dur":8702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006172342, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006172368, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006172428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006172442, "dur":6344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006178818, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006178843, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006178952, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006178963, "dur":2483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006181472, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006181500, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006181548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006181560, "dur":23788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006205373, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006205391, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006205433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006205443, "dur":2030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006207501, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006208173, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006208268, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006208282, "dur":4851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006213157, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006213177, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006213223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006213234, "dur":5425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006218681, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006218701, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006218757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006218771, "dur":3309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006222133, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006222157, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006222228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006222240, "dur":2936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006225204, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006225227, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006225278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006225320, "dur":4127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006229479, "dur":77594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006307085, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681674006307098, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/vinic/OneDrive/rea de Trabalho/Alivasion Build/Alivasion_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681674006308698, "dur":204740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681674006519247, "dur":2798, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1681674006548640, "dur": 912, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1681674006544767, "dur": 4818, "ph": "X", "name": "Write chrome-trace events", "args": {} },

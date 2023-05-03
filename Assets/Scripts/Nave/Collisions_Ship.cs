@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof (MeshCollider))]
+//[RequireComponent(typeof (MeshCollider))]
 public class Collisions_Ship : MonoBehaviour
 {
     //Life Bar
@@ -26,15 +26,19 @@ public class Collisions_Ship : MonoBehaviour
         } else if(other.name == "EnergyPwrUp(Clone)")
         {
             GetHeal();
-            Destroy(other);
+            Destroy(other.gameObject);
         }
     }
 
+    private void Update() {
+        Debug.Log(hearts.Peek().transform.localPosition);
+    }
     public void GetHeal()
     {
-        Transform positionToInstantiate = hearts.Peek().transform;
-        
+        Vector3 positionToInstantiate = new Vector3(4.0f,0,0) + hearts.Peek().transform.localPosition;
         Instantiate(life_Slot, hearts_Slots.transform);
+        hearts.Push(hearts_Slots.transform.GetChild(hearts_Slots.transform.childCount - 1).gameObject);
+        hearts.Peek().transform.localPosition = positionToInstantiate;
     }
 
     public void GetDamage()

@@ -20,7 +20,7 @@ public class Collisions_EnemyOVNI : MonoBehaviour
         if(other.name == "Ammo")
         {
             Destroy(other.gameObject);
-            GetDamage(2.0f);
+            GetDamage(4.0f);
             if(lifeBar.localScale.y <= 0)
             {
                 Destroy(transform.parent.gameObject);

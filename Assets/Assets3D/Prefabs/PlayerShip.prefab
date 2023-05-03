@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 3415427415868422706}
   - component: {fileID: 6118496100033065775}
   - component: {fileID: 738234316055260251}
-  - component: {fileID: 3210359111981178977}
+  - component: {fileID: 714985467606074033}
+  - component: {fileID: 128412997302659226}
   m_Layer: 0
   m_Name: A-12Oxcart
   m_TagString: Untagged
@@ -115,8 +116,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5883eba048909fe48bed0ba7a8ff4bc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!64 &3210359111981178977
-MeshCollider:
+  life_Slot: {fileID: 0}
+  hearts_Slots: {fileID: 0}
+--- !u!136 &714985467606074033
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -125,10 +128,23 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -3991975656949512950, guid: 0ad50f9467877ec45826ad64ccec0009, type: 3}
+  m_Radius: 1.1590576
+  m_Height: 15.453452
+  m_Direction: 2
+  m_Center: {x: 0.008735657, y: 0.3473816, z: 6.052098}
+--- !u!65 &128412997302659226
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3775975077117959143}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.77707, y: 5.954773, z: 13.572439}
+  m_Center: {x: -0.14369535, y: -0.0032653809, z: -8.134003}
 --- !u!1 &4222798548218538141
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,7 +225,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   direction: {x: 0, y: 0, z: 0}
   speed: 10
-  rotSpeed: 5
   shipTransform: {fileID: 0}
   aimTransform: {fileID: 0}
 --- !u!114 &3324664876668339444

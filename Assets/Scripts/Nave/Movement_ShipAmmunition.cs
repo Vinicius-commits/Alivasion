@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class Movement_ShipAmmunition : MonoBehaviour
 {
-    Rigidbody rb;
-    [SerializeField] float shotSpeed;
+    [SerializeField] Rigidbody rb;
+    [SerializeField] float shotSpeed, shootRange;
     [SerializeField] Vector3 direction;
 
     void Start()
     {
         shotSpeed = 5.0f;
+        shootRange = 2.0f;
         rb = GetComponent<Rigidbody>();
         transform.rotation = GameObject.Find("PlayerShip").transform.GetChild(0).rotation;
+        Destroy(gameObject, shootRange);
     }
 
-    void Update() {
+    void FixedUpdate() {
         Movement();
-        StartCoroutine(AmmoDestuction());  
+        //StartCoroutine(AmmoDestuction());
     }
 
     public void Movement()
@@ -27,9 +29,9 @@ public class Movement_ShipAmmunition : MonoBehaviour
         transform.Translate(direction, transform);
     }
 
-    public IEnumerator AmmoDestuction()
-    {
-        yield return new WaitForSeconds(2.0f);
-        Destroy(gameObject);
-    }
+    // public IEnumerator AmmoDestuction()
+    // {
+    //     yield return new WaitForSeconds(2.0f);
+    //     Destroy(gameObject);
+    // }
 }
