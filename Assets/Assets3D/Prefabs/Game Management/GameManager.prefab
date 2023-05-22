@@ -44,4 +44,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d21491fd92a1884294f89a40d8144b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fases: {fileID: 0}
+  unlockedFases: 
+  lockedFases: 
   shipGameObject: {fileID: 0}
+  volumeSFX: 0
+  volumeMusic: 1
+  cam: {fileID: 0}
+  slide: {fileID: 0}

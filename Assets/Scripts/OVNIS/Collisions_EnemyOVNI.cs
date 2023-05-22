@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof (CapsuleCollider))]
 public class Collisions_EnemyOVNI : MonoBehaviour
 {
     //Life Bar
@@ -20,7 +19,7 @@ public class Collisions_EnemyOVNI : MonoBehaviour
         if(other.name == "Ammo")
         {
             Destroy(other.gameObject);
-            GetDamage(4.0f);
+            GetDamage(ShipAmmunition_Action.damage);
             if(lifeBar.localScale.y <= 0)
             {
                 Destroy(transform.parent.gameObject);
