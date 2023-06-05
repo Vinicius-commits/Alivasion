@@ -36,24 +36,24 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\OVNIS\Collisions_EnemyOVNI.cs" />
-     <Compile Include="Assets\Scripts\OVNIS\EnemyOVNI_Teleporter.cs" />
+     <Compile Include="Assets\Scripts\Enemys\Collisions_EnemyOVNI.cs" />
+     <Compile Include="Assets\Scripts\Enemys\EnemyOVNI_Teleporter.cs" />
      <Compile Include="Assets\Scripts\Generic\SceneChange.cs" />
      <Compile Include="Assets\Scripts\Nave\ShipAmmunition_Action.cs" />
-     <Compile Include="Assets\Scripts\OVNIS\EnemyOVNI_Stalker.cs" />
+     <Compile Include="Assets\Scripts\Enemys\EnemyOVNI_Stalker.cs" />
      <Compile Include="Assets\Scripts\Testes\Teste2.cs" />
      <Compile Include="Assets\Scripts\Hud\HudManagement.cs" />
      <Compile Include="Assets\Scripts\PowerUps\Instantiate_PowerUps.cs" />
      <Compile Include="Assets\Scripts\Nave\Ship.cs" />
      <Compile Include="Assets\Scripts\Generic\Loader.cs" />
-     <Compile Include="Assets\Scripts\OVNIS\Instantiate_EnemyOVNI.cs" />
+     <Compile Include="Assets\Scripts\Enemys\Instantiate_EnemyOVNI.cs" />
      <Compile Include="Assets\Scripts\Nave\Shooter.cs" />
+     <Compile Include="Assets\Scripts\Generic\LevelManagement.cs" />
      <Compile Include="Assets\Scripts\Generic\ShipMontage.cs" />
      <Compile Include="Assets\Scripts\Generic\GameManager.cs" />
      <Compile Include="Assets\Scripts\Testes\Teste1.cs" />
      <Compile Include="Assets\Scripts\Hud\MoveInScene.cs" />
      <Compile Include="Assets\Scripts\Nave\Collisions_Ship.cs" />
-     <Compile Include="Assets\Scripts\Generic\LevelManagement.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

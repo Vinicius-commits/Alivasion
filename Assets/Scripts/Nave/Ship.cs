@@ -9,23 +9,44 @@ public class Ship : MonoBehaviour
     [SerializeField] Ray ray;
     [SerializeField] RaycastHit hit;
     [SerializeField] Transform shipTransform, aimTransform;
-
+    
+    [SerializeField] Camera cam;
+    [SerializeField] float cameraMinX, cameraMaxX, cameraMinY, cameraMaxY, screenHeight, screenWidth;
+    
     void Start() {
+        cam = Camera.main;
         speed = 100.0f;
         shipTransform = transform.GetChild(0);
+
     }
 
     void Update()
     {
-        ShipRotation();
+        if(LevelManagement.canMove)
+            ShipRotation();
     }
     void FixedUpdate()
     {
-        Movement(speed);
+        if(LevelManagement.canMove)
+            ShipMovement(speed);
     }
 
-    public void Movement(float speed)
+    public void ShipMovement(float speed)
     {
+        // screenWidth = ;
+        // screenHeight = Camera.main.;
+        // cameraMinX = -screenWidth;
+        // cameraMaxX = screenWidth;
+        // cameraMinY = -screenHeight;
+        // cameraMaxY = screenHeight;
+        // direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        // transform.position += direction * speed * Time.fixedDeltaTime;
+
+        // // Limitar a posição do jogador dentro da tela
+        // float clampedX = Mathf.Clamp(transform.position.x, cameraMinX, cameraMaxX);
+        // float clampedZ = Mathf.Clamp(transform.position.z, cameraMinY, cameraMaxY);
+        // transform.position = new Vector3(clampedX, transform.position.y, clampedZ);
+
         Vector3 cameraMin = Camera.main.ViewportToWorldPoint(new Vector3(0,0,transform.position.z));
         Vector3 cameraMax = Camera.main.ViewportToWorldPoint(new Vector3(1,1,transform.position.z));
 
@@ -37,8 +58,6 @@ public class Ship : MonoBehaviour
 
         //this method is designed to control the ship movement with the WASD or the arrows
         direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-
-        //if((transform.position.x > cameraMin.x && direction.x < cameraMax.x) && (direction.z > cameraMin.y && direction.z < cameraMax.y))
         transform.Translate(direction * speed * Time.deltaTime);
     }
 
@@ -70,7 +89,4 @@ public class Ship : MonoBehaviour
         aimTransform = shipTransform.GetChild(0);
         aimTransform.rotation = shipTransform.rotation;
     }
-
-    
-
 }

@@ -13,7 +13,10 @@ public class MoveInScene : MonoBehaviour
 
     void Update()
     {
-        Vector3 direction = Vector3.forward;
-        transform.Translate(direction * speedMoveScene);
+        if(LevelManagement.canMove)
+        {
+            Vector3 direction = Vector3.forward;
+            transform.Translate(direction * speedMoveScene);
+        }
     }
 }

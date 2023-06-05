@@ -2,19 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof (AudioSource))]
 public class Shooter : MonoBehaviour
 {
     //Shooter
     [SerializeField] bool canCast;
     [SerializeField] GameObject ammo;
-    [SerializeField] Transform aimTransform, shipTransform;
+    [SerializeField] Transform aimTransform, shipTransform, projectilesSave;
     [SerializeField] Vector3 locationToInstantiate = new Vector3(0, 413.0f, 0);
-    Transform projectilesSave;
+
+    [SerializeField] AudioSource audioManager_Shooter;
+    [SerializeField] AudioClip audio_ShootingShip;
     
     void Start()
     {
-        aimTransform = GameObject.Find("Aim").transform;
-        shipTransform = GameObject.Find("PlayerShip").transform.GetChild(0).transform;
+        audioManager_Shooter = transform.GetComponent<AudioSource>();
+        aimTransform = GameObject.Find("Aim").transform; //mudar para o aim do objeto/ canhao
+        shipTransform = GameObject.Find(GameObject.Find("GameManager").GetComponent<GameManager>().shipType).transform.GetChild(0).transform;
         projectilesSave = GameObject.Find("Projectiles").transform;
         canCast = true;
     }
@@ -25,10 +29,12 @@ public class Shooter : MonoBehaviour
 
     public IEnumerator Shooting(GameObject ammo, Transform aim, Transform ship)
     {
-        if(canCast)
+        if(canCast && LevelManagement.canMove)
         {
             locationToInstantiate += aim.position;
             canCast = false;
+            audioManager_Shooter.clip = audio_ShootingShip;
+            audioManager_Shooter.Play();
             Instantiate(ammo, aim.position, ship.rotation, projectilesSave);
             //Instantiate(ammo, aim.position, aim.rotation);
             yield return new WaitForSeconds(0.5f);

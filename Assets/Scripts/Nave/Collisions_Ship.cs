@@ -26,7 +26,7 @@ public class Collisions_Ship : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        if(other.transform.parent.tag == "Enemy" && GameObject.Find("LevelManagement").GetComponent<LevelManagement>().infiniteLife == false)
+        if(other.transform.parent.tag == "Enemy" && LevelManagement.infiniteLife == false)
         {
             audioManager_Ship.clip = gettingDamage_audio;
             audioManager_Ship.Play();

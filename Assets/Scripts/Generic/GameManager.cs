@@ -2,17 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     
+    public string shipType = "PlayerShip_StrongShip";
     [SerializeField] GameObject fases;
     [SerializeField] List<bool> unlockedFases, lockedFases;
     [SerializeField] GameObject shipGameObject;
 
     public float volumeSFX, volumeMusic;
-    
+   
     [SerializeField] AudioSource backgroundSound;
 
 
@@ -27,7 +29,8 @@ public class GameManager : MonoBehaviour
         backgroundSound.volume = volumeMusic;
 
         try{
-            GameObject.Find("VolumeConfig").GetComponent<Slider>().value = volumeMusic;
+            // if(volumeMusic != GameObject.Find("VolumeConfig").GetComponent<Slider>().value)
+            //     GameObject.Find("VolumeConfig").GetComponent<Slider>().value = volumeMusic;
         } catch {
             Debug.Log("No founded slider");
         }

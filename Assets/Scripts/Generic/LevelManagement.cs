@@ -5,33 +5,33 @@ using UnityEngine.SceneManagement;
 
 public class LevelManagement : MonoBehaviour
 {
-    public KeyCode tec;
-    public bool infiniteLife = false;
+    [SerializeField] GameObject pauseMenu;
+    public static bool infiniteLife, canMove;
 
-    public void FixedUpdate()
+    private void Start() {
+        canMove = true;
+        pauseMenu = transform.GetChild(0).transform.GetChild(0).gameObject;
+        pauseMenu.SetActive(false);
+    }
+
+    public void Update()
     {
-        if(Input.GetKey(tec))
+        if(Input.GetKeyDown(KeyCode.F2))
         {
-            switch(tec)
-            {
-                case KeyCode.Escape:
-                    if(SceneManager.sceneCount < 2)
-                    {
-                        SceneManager.LoadScene("Pause", LoadSceneMode.Additive);
-                    }
-                    else{
-                        SceneManager.UnloadSceneAsync("Pause");
-                    }
-                    break;
-                case KeyCode.F2:
-                    SceneManager.LoadScene("Fase2");
-                    break;
-                case KeyCode.F3:
-                    //InfiniteLife
-                    infiniteLife = !infiniteLife;
-                    break;
-            }
+            SceneManager.LoadScene("Fase2");
+        } 
+
+        else if (Input.GetKeyDown(KeyCode.F3))
+        {
+            infiniteLife = !infiniteLife;
+        } 
+        
+        else if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            pauseMenu.SetActive(!pauseMenu.activeSelf);
+            canMove = !canMove;
         }
+
     }
 
     public void CloseButton()

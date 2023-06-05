@@ -7,10 +7,17 @@ public class Teste1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
-        Transform visao = transform;
-        visao.LookAt(GameObject.Find("Cube2").transform.position);
+        Debug.Log(Inverter("Olá Mundo Invertido"));
     }
+    public string Inverter(string s)
+    {
+        string invertido = "";
+        for(int i = s.Length - 1; i >= 0; i--)
+        {
+            invertido += s[i];
+        }
+        return invertido;
+    } 
 
     
 }

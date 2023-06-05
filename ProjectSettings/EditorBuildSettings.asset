@@ -20,9 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Fase1.unity
     guid: 22cc9cdf98087814d9b837f819ae9cae
-  - enabled: 1
-    path: Assets/Scenes/Pause.unity
-    guid: 81f3d8608150348459c94c223f485441
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/GameWon.unity
     guid: 29d3061bba8e2704e9b032f5da3897a5
