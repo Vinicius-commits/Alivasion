@@ -12,7 +12,6 @@ public class Collisions_Ship : MonoBehaviour
 
     [SerializeField] AudioClip gettingDamage_audio, pickUpPwr_audio;
     [SerializeField] AudioSource audioManager_Ship;
-
     [SerializeField] bool canGetDamage = true;
     void Start()
     {
@@ -53,7 +52,8 @@ public class Collisions_Ship : MonoBehaviour
 
     public void GetHeal()
     {
-        Vector3 positionToInstantiate = new Vector3(4.0f,0,0) + hearts.Peek().transform.localPosition;
+        float distanceInterLifePoints = Vector3.Distance(hearts_Slots.transform.GetChild(0).transform.position, hearts_Slots.transform.GetChild(1).transform.position);
+        Vector3 positionToInstantiate = new Vector3((4 * distanceInterLifePoints),0,0) + hearts.Peek().transform.localPosition;
         Instantiate(life_Slot, hearts_Slots.transform);
         hearts.Push(hearts_Slots.transform.GetChild(hearts_Slots.transform.childCount - 1).gameObject);
         hearts.Peek().transform.localPosition = positionToInstantiate;

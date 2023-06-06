@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof (AudioSource))]
+//[RequireComponent(typeof (AudioSource))]
 public class Shooter : MonoBehaviour
 {
     //Shooter
@@ -16,8 +16,8 @@ public class Shooter : MonoBehaviour
     
     void Start()
     {
-        audioManager_Shooter = transform.GetComponent<AudioSource>();
-        aimTransform = GameObject.Find("Aim").transform; //mudar para o aim do objeto/ canhao
+        audioManager_Shooter = transform.parent.transform.parent.GetComponent<AudioSource>();
+        aimTransform = transform.GetChild(0); //mudar para o aim do objeto/ canhao
         shipTransform = GameObject.Find(GameObject.Find("GameManager").GetComponent<GameManager>().shipType).transform.GetChild(0).transform;
         projectilesSave = GameObject.Find("Projectiles").transform;
         canCast = true;
