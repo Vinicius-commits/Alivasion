@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelManagement : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
-    public static bool infiniteLife, canMove;
+    public static bool infiniteLife, canMove, fase1_completed = false, fase2_completed = false;
 
     private void Start() {
         canMove = true;

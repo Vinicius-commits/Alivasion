@@ -6,10 +6,12 @@ public class Collisions_EnemyOVNI : MonoBehaviour
 {
     //Life Bar
     [SerializeField] Transform lifeBar;
+    [SerializeField] float newLife;
 
     //Score
     [SerializeField] HudManagement scorePlacar;
     [SerializeField] int killValue;
+
 
     private void Start() {
         scorePlacar = GameObject.Find("Hud").GetComponent<HudManagement>();    
@@ -27,12 +29,15 @@ public class Collisions_EnemyOVNI : MonoBehaviour
         }
     }
 
-    public void GetDamage(float damage)
-    {
-        float newLife = lifeBar.localScale.y;
-        newLife -= damage;
-        lifeBar.localScale = new Vector3(1.0f, newLife, 1.0f);
+    private void OnDestroy() {
         if(newLife <= 0)
             scorePlacar.GetScore(killValue);
+    }
+    
+    public void GetDamage(float damage)
+    {
+        newLife = lifeBar.localScale.y;
+        newLife -= damage;
+        lifeBar.localScale = new Vector3(1.0f, newLife, 1.0f);
     }
 }
