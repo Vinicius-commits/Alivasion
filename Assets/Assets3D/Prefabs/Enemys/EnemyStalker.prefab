@@ -48,6 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeBar: {fileID: 6111849750735407326}
+  newLife: 0
+  hasDestroyedByPlayer: 0
   scorePlacar: {fileID: 0}
   killValue: 1
 --- !u!136 &5422214379392618955
@@ -148,6 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0
   direction: {x: 0, y: 0, z: 0}
+  inAttack: 0
 --- !u!1 &4900803651664634349
 GameObject:
   m_ObjectHideFlags: 0

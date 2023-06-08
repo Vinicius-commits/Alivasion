@@ -7,6 +7,7 @@ public class Collisions_EnemyOVNI : MonoBehaviour
     //Life Bar
     [SerializeField] Transform lifeBar;
     [SerializeField] float newLife;
+    [SerializeField] bool hasDestroyedByPlayer = false;
 
     //Score
     [SerializeField] HudManagement scorePlacar;
@@ -24,13 +25,15 @@ public class Collisions_EnemyOVNI : MonoBehaviour
             GetDamage(ShipAmmunition_Action.damage);
             if(lifeBar.localScale.y <= 0)
             {
+                if(newLife <= 0)
+                    hasDestroyedByPlayer = true;
                 Destroy(transform.parent.gameObject);
             }
         }
     }
 
     private void OnDestroy() {
-        if(newLife <= 0)
+        if(hasDestroyedByPlayer)
             scorePlacar.GetScore(killValue);
     }
     

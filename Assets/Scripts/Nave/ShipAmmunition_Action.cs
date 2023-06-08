@@ -15,7 +15,7 @@ public class ShipAmmunition_Action : MonoBehaviour
         shotSpeed = 15.0f;
         shootRange = 2.0f;
         rb = GetComponent<Rigidbody>();
-        transform.rotation = GameObject.Find(GameObject.Find("GameManager").GetComponent<GameManager>().shipType).transform.GetChild(0).rotation;
+        transform.rotation = GameObject.Find(GameManager.shipType).transform.GetChild(0).rotation;
         Destroy(gameObject, shootRange);
     }
 

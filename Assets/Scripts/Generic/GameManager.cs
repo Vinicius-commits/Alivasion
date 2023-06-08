@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     
-    public string shipType = "PlayerShip_StrongShip";
+    public static string shipType = "PlayerShip_StrongShip";
     [SerializeField] GameObject fases;
     [SerializeField] List<bool> unlockedFases, lockedFases;
     [SerializeField] GameObject shipGameObject;
