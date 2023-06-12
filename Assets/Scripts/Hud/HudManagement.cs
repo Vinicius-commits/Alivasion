@@ -20,7 +20,9 @@ public class HudManagement : MonoBehaviour
         score += addScoreValue;
         scorePlacar.text = score.ToString();
         if(score >= 25)
+            GameObject.Find("BOSS").SetActive(true);
             SceneChange.ChangeScene("GameWon");
+
          
     }
 }

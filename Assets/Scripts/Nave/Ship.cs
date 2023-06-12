@@ -12,12 +12,18 @@ public class Ship : MonoBehaviour
     
     [SerializeField] Camera cam;
     [SerializeField] float cameraMinX, cameraMaxX, cameraMinY, cameraMaxY, screenHeight, screenWidth;
+
+    [SerializeField] float xmin, xmax, zmin, zmax;
+    [SerializeField] bool canTeleport;
     
     void Start() {
         cam = Camera.main;
         speed = 100.0f;
         shipTransform = transform.GetChild(0);
-
+        // xmin = GameObject.Find("MinX").transform.position.x;
+        // xmax = GameObject.Find("MaxX").transform.position.x;
+        // zmin = GameObject.Find("MinZ").transform.position.z;
+        // zmax = GameObject.Find("MaxZ").transform.position.z;
     }
 
     void Update()
@@ -29,6 +35,7 @@ public class Ship : MonoBehaviour
     {
         if(LevelManagement.canMove)
             ShipMovement(speed);
+            //AtualizaPos();
     }
 
     public void ShipMovement(float speed)
@@ -60,6 +67,53 @@ public class Ship : MonoBehaviour
         direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         transform.Translate(direction * speed * Time.deltaTime);
     }
+
+    // public void AtualizaPos()
+    // {
+    //     if (canTeleport)
+    //     {
+    //         //Teleporta em X
+    //         if (transform.position.x < xmin)
+    //         {
+    //             transform.position = new Vector3(xmax, transform.position.y, transform.position.z);
+    //         }
+    //         else if (transform.position.x > xmax)
+    //         {
+    //             transform.position = new Vector3(xmin, transform.position.y, transform.position.z);
+    //         }
+    //         //Teleporta em z
+    //         if (transform.position.z < zmin)
+    //         {
+    //             transform.position = new Vector3(transform.position.x, transform.position.y, zmax);
+    //         }
+    //         else if (transform.position.z > zmax)
+    //         {
+    //             transform.position = new Vector3(transform.position.x, transform.position.y, zmin);
+    //         }
+    //     }
+    //     else
+    //     {
+    //         //Bloqueia em X
+    //         if (transform.position.x < xmin)
+    //         {
+    //             transform.position = new Vector3(xmin, transform.position.y, transform.position.z);
+    //         }
+    //         else if (transform.position.x > xmax)
+    //         {
+    //             transform.position = new Vector3(xmax, transform.position.y, transform.position.z);
+    //         }
+    //         //Bloqueia em z
+    //         if (transform.position.z < zmin)
+    //         {
+    //             transform.position = new Vector3(transform.position.x, transform.position.y, zmin);
+    //         }
+    //         else if (transform.position.z > zmax)
+    //         {
+    //             transform.position = new Vector3(transform.position.x, transform.position.y, zmax);
+    //         }
+    //     }
+
+    // }
 
     public void ShipRotation()
     {
