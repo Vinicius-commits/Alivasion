@@ -15,8 +15,9 @@ public class Collisions_EnemyOVNI : MonoBehaviour
 
 
     private void Start() {
-        scorePlacar = GameObject.Find("Hud").GetComponent<HudManagement>();    
+        scorePlacar = GameObject.Find("Hud").GetComponent<HudManagement>();
     }
+    
     private void OnTriggerEnter(Collider other) {
 
         if(other.name == "Ammo")

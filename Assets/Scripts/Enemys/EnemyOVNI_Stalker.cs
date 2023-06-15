@@ -6,9 +6,11 @@ public class EnemyOVNI_Stalker : MonoBehaviour
     [SerializeField] float speed, timer = 0;
     [SerializeField] Vector3 direction;
     [SerializeField] bool inAttack = false;
+    [SerializeField] GameObject ship;
 
     void Start()
     {
+        ship = GameObject.Find(GameManager.shipType);
         speed = 55.0f;
         direction = Vector3.forward;
     }
@@ -27,30 +29,32 @@ public class EnemyOVNI_Stalker : MonoBehaviour
         if(LevelManagement.canMove)
         {
             //direction = Vector3.forward;
-            transform.LookAt(GameObject.Find(GameManager.shipType).transform.position);
+            transform.LookAt(ship.transform.position);
             transform.Translate(direction * speed * Time.deltaTime);
         }
     }
 
     void Attack()
     {
-        float shipDistance = Vector3.Distance(GameObject.Find(GameManager.shipType).transform.position, transform.position);
-        if(shipDistance <= 50.0f)
+        float shipDistance = Vector3.Distance(ship.transform.position, transform.position);
+        if(shipDistance <= 45.0f)
         {
             inAttack = true;
-                        
-            //Explosion Animation
-            //Timer To Explosion
-            timer += Time.deltaTime;
-            if(timer >=3.0f)    
-                Destroy(gameObject);
         }
 
         if(inAttack)
         {
             timer += Time.deltaTime;
-            if(timer >=0.89f)    
+
+            if(timer >=0.89f && LevelManagement.infiniteLife == false && shipDistance <= 50.0f)    
+            {
+                //VFXExplosion
+                ship.transform.GetChild(0).GetComponent<Collisions_Ship>().GetDamage();
                 Destroy(gameObject);
+            } else {
+                //VFXExplosion
+                Destroy(gameObject);
+            }
         }
     }
 }

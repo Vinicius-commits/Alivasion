@@ -36,7 +36,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void GMInstantiate()
+    public void GMInstantiate()
     {
         if(instance == null)
         {
@@ -47,7 +47,6 @@ public class GameManager : MonoBehaviour
         }
 
         DontDestroyOnLoad(gameObject);
-        Debug.Log("gameManager");
     }
 
     public void ChangeVolume(float value)

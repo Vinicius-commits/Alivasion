@@ -5,15 +5,21 @@ using UnityEngine;
 public class EnemyOVNI_BossFirstLevel : MonoBehaviour
 {
     [SerializeField] List<GameObject> lifeBars;
+    [SerializeField] Transform lifebar;
     [SerializeField] float speed;
     [SerializeField] Vector3 direction;
+    
+    private void Awake() {
+        lifebar = GameObject.Find("BOSSLifeBar").transform;
+        lifebar.GetChild(0).gameObject.SetActive(false);
+    }
     void Start()
     {
         speed = 5.0f;
         direction = Vector3.forward;
-        for(int i = 0; i < GameObject.Find("BOSSLifeBar_Background").transform.childCount; i++)
+        for(int i = 0; i < lifebar.GetChild(0).transform.childCount; i++)
         {
-            lifeBars.Add(GameObject.Find("BOSSLifeBar_Background").transform.GetChild(i).gameObject);
+            lifeBars.Add(lifebar.GetChild(0).transform.GetChild(i).gameObject);
         }
     }
 
@@ -22,19 +28,30 @@ public class EnemyOVNI_BossFirstLevel : MonoBehaviour
         
     }
 
+    private void OnEnable() {
+        lifebar.GetChild(0).gameObject.SetActive(true);
+    }
+    private void OnDisable() {
+        lifebar.GetChild(0).gameObject.SetActive(false);
+    }
+
     private void OnCollisionEnter(Collision other) {
+        
+    }
+
+    private void OnDestroy() {
         
     }
 
     public void Movement()
     {
-        
+
         transform.position = new Vector3(0,0,0);
     }
 
     public void Attack()
     {
-
+        
     }
 
     public void GetDamage()

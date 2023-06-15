@@ -11,10 +11,10 @@ public class EnemyOVNI_Teleporter : MonoBehaviour
 
     void Start()
     {
-        positions.Add(GameObject.Find("TeleporterPosition_1"));
-        positions.Add(GameObject.Find("TeleporterPosition_2"));
-        positions.Add(GameObject.Find("TeleporterPosition_3"));
-        positions.Add(GameObject.Find("TeleporterPosition_4"));
+        for(int i = 0; i < GameObject.Find("PrePositions").transform.childCount; i++)
+        {
+            positions.Add(GameObject.Find("PrePositions").transform.GetChild(i).gameObject);
+        }
     }
 
     void FixedUpdate()

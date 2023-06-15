@@ -19,7 +19,7 @@ public class Shooter : MonoBehaviour
         audioManager_Shooter = transform.parent.transform.parent.GetComponent<AudioSource>();
         aimTransform = transform.GetChild(0); //mudar para o aim do objeto/ canhao
         shipTransform = GameObject.Find(GameManager.shipType).transform.GetChild(0).transform;
-        projectilesSave = GameObject.Find("Projectiles").transform;
+        projectilesSave = GameObject.Find("ProjectilesShip").transform;
         canCast = true;
     }
     void FixedUpdate()

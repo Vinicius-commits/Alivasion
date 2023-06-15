@@ -8,12 +8,12 @@ public class ShipAmmunition_Action : MonoBehaviour
     [SerializeField] float shotSpeed, shootRange;
     [SerializeField] Vector3 direction;
     public static float damage { get; set; }
-    public float SetDamage = 4.0f;
+    public float SetDamage = 1.0f;
     void Start()
     {
         damage = SetDamage;
         shotSpeed = 15.0f;
-        shootRange = 2.0f;
+        shootRange = 0.50f;
         rb = GetComponent<Rigidbody>();
         transform.rotation = GameObject.Find(GameManager.shipType).transform.GetChild(0).rotation;
         Destroy(gameObject, shootRange);

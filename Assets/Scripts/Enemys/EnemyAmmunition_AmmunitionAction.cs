@@ -6,16 +6,18 @@ public class EnemyAmmunition_AmmunitionAction : MonoBehaviour
 {
     [SerializeField] Rigidbody rb;
     [SerializeField] float shotSpeed, shootRange;
+    [SerializeField] string gunName;
     [SerializeField] Vector3 direction;
     public static float damage { get; set; }
     public float SetDamage = 4.0f;
+    
     void Start()
     {
+
         damage = SetDamage;
-        shotSpeed = 15.0f;
+        shotSpeed = 13.0f;
         shootRange = 2.0f;
         rb = GetComponent<Rigidbody>();
-        transform.rotation = GameObject.Find("Alivasion_Guns_TripleGun").transform.rotation;
         Destroy(gameObject, shootRange);
     }
 
@@ -28,6 +30,6 @@ public class EnemyAmmunition_AmmunitionAction : MonoBehaviour
     {
         direction = Vector3.forward * shotSpeed;
         //rb.AddForce(direction, ForceMode.Impulse);
-        transform.Translate(direction, transform);
+        transform.Translate(direction);
     }
 }

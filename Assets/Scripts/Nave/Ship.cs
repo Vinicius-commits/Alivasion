@@ -14,28 +14,30 @@ public class Ship : MonoBehaviour
     [SerializeField] float cameraMinX, cameraMaxX, cameraMinY, cameraMaxY, screenHeight, screenWidth;
 
     [SerializeField] float xmin, xmax, zmin, zmax;
-    [SerializeField] bool canTeleport;
-    
+    [SerializeField] bool canTeleport = true;
+
     void Start() {
         cam = Camera.main;
-        speed = 100.0f;
+        speed = 150.0f;
         shipTransform = transform.GetChild(0);
-        // xmin = GameObject.Find("MinX").transform.position.x;
-        // xmax = GameObject.Find("MaxX").transform.position.x;
-        // zmin = GameObject.Find("MinZ").transform.position.z;
-        // zmax = GameObject.Find("MaxZ").transform.position.z;
     }
 
     void Update()
     {
-        if(LevelManagement.canMove)
+        if (LevelManagement.canMove)
             ShipRotation();
     }
     void FixedUpdate()
     {
-        if(LevelManagement.canMove)
+        xmin = GameObject.Find("MinX").transform.position.x;
+        xmax = GameObject.Find("MaxX").transform.position.x;
+        zmin = GameObject.Find("MinZ").transform.position.z;
+        zmax = GameObject.Find("MaxZ").transform.position.z;
+        if (LevelManagement.canMove)
+        {    
             ShipMovement(speed);
-            //AtualizaPos();
+            AtualizaPos();
+        }
     }
 
     public void ShipMovement(float speed)
@@ -54,66 +56,66 @@ public class Ship : MonoBehaviour
         // float clampedZ = Mathf.Clamp(transform.position.z, cameraMinY, cameraMaxY);
         // transform.position = new Vector3(clampedX, transform.position.y, clampedZ);
 
-        Vector3 cameraMin = Camera.main.ViewportToWorldPoint(new Vector3(0,0,transform.position.z));
-        Vector3 cameraMax = Camera.main.ViewportToWorldPoint(new Vector3(1,1,transform.position.z));
+        // Vector3 cameraMin = Camera.main.ViewportToWorldPoint(new Vector3(0,0,transform.position.z));
+        // Vector3 cameraMax = Camera.main.ViewportToWorldPoint(new Vector3(1,1,transform.position.z));
 
-        cameraMin.x += 0.5f * transform.localScale.x;
-        cameraMin.y += 0.5f * transform.localScale.y;
+        // cameraMin.x += 0.5f * transform.localScale.x;
+        // cameraMin.y += 0.5f * transform.localScale.y;
 
-        cameraMax.x += 0.5f * transform.localScale.x;
-        cameraMax.y += 0.5f * transform.localScale.y;
+        // cameraMax.x += 0.5f * transform.localScale.x;
+        // cameraMax.y += 0.5f * transform.localScale.y;
 
         //this method is designed to control the ship movement with the WASD or the arrows
         direction = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         transform.Translate(direction * speed * Time.deltaTime);
     }
 
-    // public void AtualizaPos()
-    // {
-    //     if (canTeleport)
-    //     {
-    //         //Teleporta em X
-    //         if (transform.position.x < xmin)
-    //         {
-    //             transform.position = new Vector3(xmax, transform.position.y, transform.position.z);
-    //         }
-    //         else if (transform.position.x > xmax)
-    //         {
-    //             transform.position = new Vector3(xmin, transform.position.y, transform.position.z);
-    //         }
-    //         //Teleporta em z
-    //         if (transform.position.z < zmin)
-    //         {
-    //             transform.position = new Vector3(transform.position.x, transform.position.y, zmax);
-    //         }
-    //         else if (transform.position.z > zmax)
-    //         {
-    //             transform.position = new Vector3(transform.position.x, transform.position.y, zmin);
-    //         }
-    //     }
-    //     else
-    //     {
-    //         //Bloqueia em X
-    //         if (transform.position.x < xmin)
-    //         {
-    //             transform.position = new Vector3(xmin, transform.position.y, transform.position.z);
-    //         }
-    //         else if (transform.position.x > xmax)
-    //         {
-    //             transform.position = new Vector3(xmax, transform.position.y, transform.position.z);
-    //         }
-    //         //Bloqueia em z
-    //         if (transform.position.z < zmin)
-    //         {
-    //             transform.position = new Vector3(transform.position.x, transform.position.y, zmin);
-    //         }
-    //         else if (transform.position.z > zmax)
-    //         {
-    //             transform.position = new Vector3(transform.position.x, transform.position.y, zmax);
-    //         }
-    //     }
+    public void AtualizaPos()
+    {
+        if (canTeleport)
+        {
+            //Teleporta em X
+            if (transform.position.x < xmin)
+            {
+                transform.position = new Vector3(xmax, transform.position.y, transform.position.z);
+            }
+            else if (transform.position.x > xmax)
+            {
+                transform.position = new Vector3(xmin, transform.position.y, transform.position.z);
+            }
+            //Teleporta em z
+            if (transform.position.z < zmin)
+            {
+                transform.position = new Vector3(transform.position.x, transform.position.y, zmax);
+            }
+            else if (transform.position.z > zmax)
+            {
+                transform.position = new Vector3(transform.position.x, transform.position.y, zmin);
+            }
+        }
+        else
+        {
+            //Bloqueia em X
+            if (transform.position.x < xmin)
+            {
+                transform.position = new Vector3(xmin, transform.position.y, transform.position.z);
+            }
+            else if (transform.position.x > xmax)
+            {
+                transform.position = new Vector3(xmax, transform.position.y, transform.position.z);
+            }
+            //Bloqueia em z
+            if (transform.position.z < zmin)
+            {
+                transform.position = new Vector3(transform.position.x, transform.position.y, zmin);
+            }
+            else if (transform.position.z > zmax)
+            {
+                transform.position = new Vector3(transform.position.x, transform.position.y, zmax);
+            }
+        }
 
-    // }
+    }
 
     public void ShipRotation()
     {
@@ -131,6 +133,8 @@ public class Ship : MonoBehaviour
             return;
         
         Vector3 mouseLookDirection = hit.point - shipTransform.transform.position;
+        Debug.Log("hit point " + hit.point + "Ship Position " + shipTransform.transform.position);
+        Debug.Log("mouseLookDirection " + mouseLookDirection);
         mouseLookDirection.y = 0;
         // Debug.Log($"{mouseLookDirection} = mouse look direction");
         // Debug.Log($"{hit.point} = hit.point");
