@@ -41,6 +41,7 @@
      <Compile Include="Assets\Scripts\Generic\SceneChange.cs" />
      <Compile Include="Assets\Scripts\Nave\ShipAmmunition_Action.cs" />
      <Compile Include="Assets\Scripts\Enemys\EnemyOVNI_Stalker.cs" />
+     <Compile Include="Assets\Scripts\Enemys\BOSS\Collisions_Boss.cs" />
      <Compile Include="Assets\Scripts\Enemys\BOSS\EnemyOVNI_TripleGun.cs" />
      <Compile Include="Assets\Scripts\Testes\Teste2.cs" />
      <Compile Include="Assets\Scripts\Hud\HudManagement.cs" />
@@ -57,7 +58,7 @@
      <Compile Include="Assets\Scripts\Testes\Teste1.cs" />
      <Compile Include="Assets\Scripts\Hud\MoveInScene.cs" />
      <Compile Include="Assets\Scripts\Nave\Collisions_Ship.cs" />
-     <Compile Include="Assets\Scripts\Enemys\BOSS\Collisions_Boss.cs" />
+     <Compile Include="Assets\Scripts\Enemys\EnemyGun_TeleporterGun.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

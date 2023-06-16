@@ -4,19 +4,22 @@ using UnityEngine;
 
 public class Collisions_Boss : MonoBehaviour
 {
+    [SerializeField] GameObject bossGO;
     
     void Start()
     {
-        
+        bossGO = GameObject.Find("BOSS").transform.GetChild(0).gameObject;
     }
 
-    // Update is called once per frame
     void Update()
     {
         
     }
 
     private void OnTriggerEnter(Collider other) {
-        if(other.name)
+        if(other.transform.parent.name == "Ammunition(Clone)")
+        {
+            bossGO.GetComponent<EnemyOVNI_BossFirstLevel>().GetDamage();
+        }
     }
 }

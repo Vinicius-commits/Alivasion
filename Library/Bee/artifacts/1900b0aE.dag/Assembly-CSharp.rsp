@@ -350,6 +350,7 @@
 "Assets/Scripts/Enemys/BOSS/EnemyOVNI_TripleGun.cs"
 "Assets/Scripts/Enemys/Collisions_EnemyOVNI.cs"
 "Assets/Scripts/Enemys/EnemyAmmunition_AmmunitionAction.cs"
+"Assets/Scripts/Enemys/EnemyGun_TeleporterGun.cs"
 "Assets/Scripts/Enemys/EnemyOVNI_Stalker.cs"
 "Assets/Scripts/Enemys/EnemyOVNI_Teleporter.cs"
 "Assets/Scripts/Enemys/Instantiate_EnemyOVNI.cs"

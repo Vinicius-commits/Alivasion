@@ -10,8 +10,9 @@ public class EnemyOVNI_BossFirstLevel : MonoBehaviour
     [SerializeField] Vector3 direction;
     
     private void Awake() {
-        lifebar = GameObject.Find("BOSSLifeBar").transform;
-        lifebar.GetChild(0).gameObject.SetActive(false);
+        //Catch LifeBar_Background
+        lifebar = GameObject.Find("BOSSLifeBar").transform.GetChild(0);
+        lifebar.gameObject.SetActive(false);
     }
     void Start()
     {
@@ -29,10 +30,10 @@ public class EnemyOVNI_BossFirstLevel : MonoBehaviour
     }
 
     private void OnEnable() {
-        lifebar.GetChild(0).gameObject.SetActive(true);
+        lifebar.gameObject.SetActive(true);
     }
     private void OnDisable() {
-        lifebar.GetChild(0).gameObject.SetActive(false);
+        lifebar.gameObject.SetActive(false);
     }
 
     private void OnCollisionEnter(Collision other) {
@@ -56,6 +57,32 @@ public class EnemyOVNI_BossFirstLevel : MonoBehaviour
 
     public void GetDamage()
     {
-        GameObject.Find("LifeBar2").transform.localScale.Set(GameObject.Find("LifeBar2").transform.localScale.x - 0.2f, GameObject.Find("LifeBar2").transform.localScale.y, GameObject.Find("LifeBar2").transform.localScale.z);
+        if(lifeBars.Count >= 1)
+        {
+            RectTransform life;
+            if(lifeBars.Count >= 2)
+            {
+                life = lifeBars[1].GetComponent<RectTransform>();
+                life.localScale = new Vector3(life.localScale.x - 0.02f, life.localScale.y, life.localScale.z);
+                if(life.localScale.x <= 0)
+                {
+                    Destroy(lifeBars[1].gameObject);
+                    lifeBars.RemoveAt(1);
+                }
+            } else if(lifeBars.Count == 1) {
+                life = lifeBars[0].GetComponent<RectTransform>();
+                life.localScale = new Vector3(life.localScale.x - 0.02f, life.localScale.y, life.localScale.z);
+                if(life.localScale.x <= 0)    
+                {
+                    Destroy(lifeBars[0].gameObject);
+                    lifeBars.RemoveAt(0);
+                }    
+            }
+        } else {
+            SceneChange.ChangeScene("GameWon");
+            GameManager.UnlockFase(2);
+            Destroy(lifebar.gameObject);
+            Destroy(gameObject);
+        }
     }
 }

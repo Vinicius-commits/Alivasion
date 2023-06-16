@@ -301,7 +301,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1714654866727890160, guid: 19da56cd827c44b4ebcbb6ff46d940f0, type: 3}
+  - {fileID: 2100000, guid: 9568249e8848110459197817cd183720, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -406,7 +406,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1714654866727890160, guid: 19da56cd827c44b4ebcbb6ff46d940f0, type: 3}
+  - {fileID: 2100000, guid: 9568249e8848110459197817cd183720, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -515,8 +515,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1932560521025646366, guid: 1740ff7d2107140499f82f3606f889fc, type: 3}
-  - {fileID: -1256742835280082670, guid: 1740ff7d2107140499f82f3606f889fc, type: 3}
+  - {fileID: 2100000, guid: a2f7b053eb6e1384b9e98b22e1c72a48, type: 2}
+  - {fileID: 2100000, guid: f0cea54089a152a4cb70bfd62d9979a7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -682,6 +682,7 @@ MonoBehaviour:
   pickUpPwr_audio: {fileID: 8300000, guid: f8bba60ea972f6d43b99837b97cb4acc, type: 3}
   audioManager_Ship: {fileID: 0}
   canGetDamage: 1
+  distanceInterLifePoints: 0
 --- !u!1001 &8270709830655680612
 PrefabInstance:
   m_ObjectHideFlags: 0

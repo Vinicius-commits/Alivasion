@@ -36,7 +36,7 @@ public class Collisions_Ship : MonoBehaviour
             GetPwrUp();
             GetHeal();
             Destroy(other.gameObject);
-        } else if(other.name == "BulletPwrUp(Clone)")
+        } else if(other.name == "AmmoPwrUp(Clone)")
         {
             GetPwrUp();
             Destroy(other.gameObject);

@@ -3,7 +3,12 @@ guid: 19da56cd827c44b4ebcbb6ff46d940f0
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Guns_Opaque
+    second: {fileID: 2100000, guid: 9568249e8848110459197817cd183720, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

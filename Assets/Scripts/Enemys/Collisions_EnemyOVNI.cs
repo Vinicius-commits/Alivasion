@@ -13,7 +13,6 @@ public class Collisions_EnemyOVNI : MonoBehaviour
     [SerializeField] HudManagement scorePlacar;
     [SerializeField] int killValue;
 
-
     private void Start() {
         scorePlacar = GameObject.Find("Hud").GetComponent<HudManagement>();
     }

@@ -133,8 +133,6 @@ public class Ship : MonoBehaviour
             return;
         
         Vector3 mouseLookDirection = hit.point - shipTransform.transform.position;
-        Debug.Log("hit point " + hit.point + "Ship Position " + shipTransform.transform.position);
-        Debug.Log("mouseLookDirection " + mouseLookDirection);
         mouseLookDirection.y = 0;
         // Debug.Log($"{mouseLookDirection} = mouse look direction");
         // Debug.Log($"{hit.point} = hit.point");

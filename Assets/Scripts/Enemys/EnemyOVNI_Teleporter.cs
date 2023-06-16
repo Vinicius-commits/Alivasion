@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class EnemyOVNI_Teleporter : MonoBehaviour
 {
+    //teleport
     [SerializeField] List<GameObject> positions;
     [SerializeField] bool canTeleport;
     [SerializeField] int positionToTeleport;
     [SerializeField] float timing_Teleport = 0;
 
+    //attack
+    [SerializeField] Transform gun, aim, projectilesSave;
+    [SerializeField] GameObject ammo;
+    [SerializeField] float timing_Attack = 0;
+    [SerializeField] bool inAttack = false;
+
     void Start()
     {
+        projectilesSave = GameObject.Find("ProjectilesEnemy").transform;
         for(int i = 0; i < GameObject.Find("PrePositions").transform.childCount; i++)
         {
             positions.Add(GameObject.Find("PrePositions").transform.GetChild(i).gameObject);
@@ -30,9 +38,23 @@ public class EnemyOVNI_Teleporter : MonoBehaviour
 
     public void Attack()
     {
-        //Instantiate(ammunition, aim, gunTransform);
-        
-        
+        //catch references and the rotation
+        if(!inAttack)
+        {
+            gun = transform.GetChild(1).GetChild(0);
+            gun.GetComponent<EnemyGun_TeleporterGun>().AimGun();
+            timing_Attack += Time.deltaTime;
+        }
+
+        //shoot the ammo
+        if(timing_Attack >= 3.0f)
+        {
+            inAttack = true;
+            timing_Attack = 0;
+            aim = gun.GetChild(0);
+            Instantiate(ammo, aim.position, gun.rotation, projectilesSave);
+            inAttack = false;
+        }
     }
 
     public void Teleport()

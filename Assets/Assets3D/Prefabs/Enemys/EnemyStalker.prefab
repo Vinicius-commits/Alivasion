@@ -130,12 +130,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerUps_Types:
-  - {fileID: 4021613237930530166, guid: 13d1e4ecfc4e48746bd71abcc62f8a23, type: 3}
-  - {fileID: 5565093187721849034, guid: bcc7f4c2acbccc7439b5b44489853c6e, type: 3}
-  - {fileID: 841093413363898137, guid: 84012a52a4d9c654ea286879dce053cf, type: 3}
+  - {fileID: 5733915652354840004, guid: 34167e95b895f954196a588c798a1637, type: 3}
+  - {fileID: 8912493733655112312, guid: bcc7f4c2acbccc7439b5b44489853c6e, type: 3}
+  - {fileID: 1905817525015768646, guid: 84012a52a4d9c654ea286879dce053cf, type: 3}
   powerUp_Selected: {fileID: 0}
-  randomChoice: 0
-  chanceToInstantiate: 0
+  randomChoice_PwrUpType: 0
+  chanceToInstantiate_PwrUpType: 0
 --- !u!114 &2582525814545107671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -149,8 +149,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0
+  timer: 0
   direction: {x: 0, y: 0, z: 0}
   inAttack: 0
+  ship: {fileID: 0}
 --- !u!1 &4900803651664634349
 GameObject:
   m_ObjectHideFlags: 0
@@ -212,8 +214,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -1256742835280082670, guid: 2861273634f99be478b86e715985ab18, type: 3}
-  - {fileID: -3348015791687190798, guid: 2861273634f99be478b86e715985ab18, type: 3}
+  - {fileID: 2100000, guid: f0cea54089a152a4cb70bfd62d9979a7, type: 2}
+  - {fileID: 2100000, guid: ba357f7e2db00ee42af1046ea4540449, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

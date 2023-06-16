@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelManagement : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
-    public static bool infiniteLife, canMove, fase1_completed = false, fase2_completed = false;
+    public static bool infiniteLife, canMove;
 
     private void Start() {
         canMove = true;
@@ -24,6 +24,11 @@ public class LevelManagement : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.F3))
         {
             infiniteLife = !infiniteLife;
+        } 
+
+        else if (Input.GetKeyDown(KeyCode.F4))
+        {
+            GameObject.Find("Hud").GetComponent<HudManagement>().GetScore(50);
         } 
         
         else if (Input.GetKeyDown(KeyCode.Escape))
