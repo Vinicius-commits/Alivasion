@@ -6,20 +6,25 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    //Game Control
     public static GameManager instance;
     
+    //ShipMontage
     public static string shipType = "PlayerShip_StrongShip";
-    [SerializeField] GameObject shipGameObject;
 
     //fases to unlock
     static List<GameObject> fases = new List<GameObject>();
     static int fasesUnlocked = 0;
     [SerializeField] RectTransform fases_parent;
+
+    //Volume Controller
+    public static float musicTime;
     public static float volumeSFX; 
     public static float volumeMusic;
-   
     [SerializeField] AudioSource backgroundSound;
 
+    //Scene Detection
+    static string currentScene;
 
     void Awake()
     {
@@ -38,6 +43,27 @@ public class GameManager : MonoBehaviour
         //     Debug.Log("No founded slider");
         // }
 
+        if(SceneDetection())
+        {
+            CheckOutFases();
+        }
+    }
+
+    public void GMInstantiate()
+    {
+        if(instance == null)
+        {
+            instance = this;
+        } else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+
+        DontDestroyOnLoad(gameObject);
+    }
+
+    public void CheckOutFases()
+    {
         if(SceneManager.GetActiveScene().name == "Garage")
         {
             fases_parent = GameObject.Find("Fases").GetComponent<RectTransform>(); 
@@ -55,27 +81,30 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public void GMInstantiate()
-    {
-        if(instance == null)
-        {
-            instance = this;
-        } else if (instance != this)
-        {
-            Destroy(gameObject);
-        }
-
-        DontDestroyOnLoad(gameObject);
-    }
-
-    public void ChangeVolume(float value)
+    public void ChangeMusicVolume(float value)
     {
         volumeMusic = value;
+    }
+
+    public void ChangeMusicVolume()
+    {
+        
     }
 
     public static void UnlockFase(int faseNumber)
     {
         faseNumber -= 1;
         fasesUnlocked = faseNumber;
+    }
+
+    public bool SceneDetection()
+    {
+        bool changed = false;
+        if(SceneManager.GetActiveScene().name != currentScene)
+        {
+            currentScene = SceneManager.GetActiveScene().name;
+            changed = true;
+        }
+        return changed;
     }
 }

@@ -12,6 +12,16 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
 
+    public static void AddScene(string sceneName)
+    {
+        SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Additive);
+    }
+
+    public static void UnloadScene(string sceneName)
+    {
+        SceneManager.UnloadSceneAsync(sceneName);
+    }
+
     public void ExitAplication()
     {
         Application.Quit();

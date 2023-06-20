@@ -57,8 +57,8 @@
      <Compile Include="Assets\Scripts\Enemys\BOSS\EnemyOVNI_BossFirstLevel.cs" />
      <Compile Include="Assets\Scripts\Testes\Teste1.cs" />
      <Compile Include="Assets\Scripts\Hud\MoveInScene.cs" />
-     <Compile Include="Assets\Scripts\Nave\Collisions_Ship.cs" />
      <Compile Include="Assets\Scripts\Enemys\EnemyGun_TeleporterGun.cs" />
+     <Compile Include="Assets\Scripts\Nave\Collisions_Ship.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

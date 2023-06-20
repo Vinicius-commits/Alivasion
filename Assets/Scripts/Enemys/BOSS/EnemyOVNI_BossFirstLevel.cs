@@ -7,10 +7,12 @@ public class EnemyOVNI_BossFirstLevel : MonoBehaviour
     [SerializeField] List<GameObject> lifeBars;
     [SerializeField] Transform lifebar;
     [SerializeField] float speed;
-    [SerializeField] Vector3 direction;
+    [SerializeField] Vector3 direction, callBossPosition;
     
     private void Awake() {
         //Catch LifeBar_Background
+        callBossPosition = new Vector3(0,0,20.0f);
+        transform.parent.transform.position += callBossPosition;
         lifebar = GameObject.Find("BOSSLifeBar").transform.GetChild(0);
         lifebar.gameObject.SetActive(false);
     }
@@ -24,9 +26,9 @@ public class EnemyOVNI_BossFirstLevel : MonoBehaviour
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
-        
+        Movement();
     }
 
     private void OnEnable() {
@@ -46,8 +48,11 @@ public class EnemyOVNI_BossFirstLevel : MonoBehaviour
 
     public void Movement()
     {
-
-        transform.position = new Vector3(0,0,0);
+        if(transform.parent.position.z < 2119.0f)
+        {
+            callBossPosition.z = 0.5f;
+            transform.parent.transform.position += callBossPosition;
+        }
     }
 
     public void Attack()
@@ -63,7 +68,7 @@ public class EnemyOVNI_BossFirstLevel : MonoBehaviour
             if(lifeBars.Count >= 2)
             {
                 life = lifeBars[1].GetComponent<RectTransform>();
-                life.localScale = new Vector3(life.localScale.x - 0.02f, life.localScale.y, life.localScale.z);
+                life.localScale = new Vector3(life.localScale.x - 0.01f, life.localScale.y, life.localScale.z);
                 if(life.localScale.x <= 0)
                 {
                     Destroy(lifeBars[1].gameObject);
@@ -71,7 +76,7 @@ public class EnemyOVNI_BossFirstLevel : MonoBehaviour
                 }
             } else if(lifeBars.Count == 1) {
                 life = lifeBars[0].GetComponent<RectTransform>();
-                life.localScale = new Vector3(life.localScale.x - 0.02f, life.localScale.y, life.localScale.z);
+                life.localScale = new Vector3(life.localScale.x - 0.01f, life.localScale.y, life.localScale.z);
                 if(life.localScale.x <= 0)    
                 {
                     Destroy(lifeBars[0].gameObject);

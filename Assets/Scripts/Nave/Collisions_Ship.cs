@@ -9,13 +9,22 @@ public class Collisions_Ship : MonoBehaviour
 {
     //Life Bar
     public Stack<GameObject> hearts = new Stack<GameObject>();
-    
     [SerializeField] GameObject life_Slot, hearts_Slots;
-
-    [SerializeField] AudioClip gettingDamage_audio, pickUpPwr_audio;
-    [SerializeField] AudioSource audioManager_Ship;
-    [SerializeField] bool canGetDamage = true;
     [SerializeField] float distanceInterLifePoints;
+
+    //Audio Control
+    [SerializeField] AudioSource audioManager_Ship;
+
+    //Getting damage
+    [SerializeField] AudioClip gettingDamage_audio;
+    [SerializeField] bool canGetDamage = true;
+
+    //Getting PwrUp
+    public Stack<GameObject> pwrUps = new Stack<GameObject>();
+    [SerializeField] AudioClip pickUpPwr_audio;
+    [SerializeField] GameObject shield, pwrUp_Slots;
+    [SerializeField] float distanceInterPwrUpSlots;
+
     void Start()
     {
         audioManager_Ship = gameObject.GetComponent<AudioSource>();
@@ -24,7 +33,16 @@ public class Collisions_Ship : MonoBehaviour
         {
             hearts.Push(hearts_Slots.transform.GetChild(heartCount).gameObject);
         }
+
+        pwrUp_Slots = GameObject.Find("PowerUps");
+        for(int pwrCount = 0; pwrUp_Slots.transform.childCount > pwrCount; pwrCount++)
+        {
+            pwrUps.Push(pwrUp_Slots.transform.GetChild(pwrCount).gameObject);
+        }
         distanceInterLifePoints = Vector3.Distance(hearts_Slots.transform.GetChild(0).transform.position, hearts_Slots.transform.GetChild(1).transform.position);
+        distanceInterPwrUpSlots = Vector3.Distance(pwrUp_Slots.transform.GetChild(0).transform.position, pwrUp_Slots.transform.GetChild(1).transform.position);
+        shield = GameObject.Find("Shield");
+        shield.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other) {
@@ -39,10 +57,12 @@ public class Collisions_Ship : MonoBehaviour
         } else if(other.name == "AmmoPwrUp(Clone)")
         {
             GetPwrUp();
+            Shooter.shotRange += 0.1f;
             Destroy(other.gameObject);
         } else if(other.name == "ShieldPwrUp(Clone)")
         {
             GetPwrUp();
+            GetShield();
             Destroy(other.gameObject);
         }
         
@@ -60,6 +80,16 @@ public class Collisions_Ship : MonoBehaviour
         Instantiate(life_Slot, hearts_Slots.transform);
         hearts.Push(hearts_Slots.transform.GetChild(hearts_Slots.transform.childCount - 1).gameObject);
         hearts.Peek().transform.localPosition = positionToInstantiate;
+    }
+
+    public void GetShield()
+    {
+        
+    }
+
+    public void UseShield()
+    {
+        
     }
 
     public void GetDamage()
