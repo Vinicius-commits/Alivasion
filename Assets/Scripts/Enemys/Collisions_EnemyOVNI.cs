@@ -13,6 +13,9 @@ public class Collisions_EnemyOVNI : MonoBehaviour
     [SerializeField] HudManagement scorePlacar;
     [SerializeField] int killValue;
 
+    //explosion
+    [SerializeField] GameObject explosion;
+
     private void Start() {
         scorePlacar = GameObject.Find("Hud").GetComponent<HudManagement>();
     }
@@ -33,6 +36,7 @@ public class Collisions_EnemyOVNI : MonoBehaviour
     }
 
     private void OnDestroy() {
+        Instantiate(explosion, transform.position,Quaternion.identity);
         if(hasDestroyedByPlayer)
             scorePlacar.GetScore(killValue);
     }

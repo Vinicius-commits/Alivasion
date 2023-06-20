@@ -285,6 +285,7 @@ MonoBehaviour:
   projectilesSave: {fileID: 0}
   ammo: {fileID: 1525797709679907134, guid: dafba41d911925b43839dfeaca479f2f, type: 3}
   timing_Attack: 0
+  inAttack: 0
 --- !u!82 &888819830069921128
 AudioSource:
   m_ObjectHideFlags: 0
@@ -518,3 +519,4 @@ MonoBehaviour:
   hasDestroyedByPlayer: 0
   scorePlacar: {fileID: 0}
   killValue: 2
+  explosion: {fileID: 460895175262926601, guid: 9d35c0b4b46d14b47981291a5c3bcbd2, type: 3}

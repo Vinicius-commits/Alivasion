@@ -1,0 +1,1339 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'pt' Physical Memory: 10115 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Produções PUC/Jogo SHOTTEMUP/Alivasion/Projeto Unity/Alivasion
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+56462
+Successfully changed project path to: D:/Produções PUC/Jogo SHOTTEMUP/Alivasion/Projeto Unity/Alivasion
+D:/Produções PUC/Jogo SHOTTEMUP/Alivasion/Projeto Unity/Alivasion
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11104] Host "[IP] 26.189.189.247 [Port] 0 [Flags] 2 [Guid] 2616413519 [EditorId] 2616413519 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K49QIIA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11104] Host "[IP] 26.189.189.247 [Port] 0 [Flags] 2 [Guid] 2616413519 [EditorId] 2616413519 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K49QIIA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 131.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Produções PUC/Jogo SHOTTEMUP/Alivasion/Projeto Unity/Alivasion/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Vendor:   ATI
+    VRAM:     5057 MB
+    Driver:   31.0.14057.5006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014072 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 140.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.331 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1332ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (956ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (251ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (274ms)
+				ProcessInitializeOnLoadMethodAttributes (92ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016048 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.266 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2267ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (1805ms)
+			LoadAssemblies (197ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (593ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (868ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (656ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3084 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (114.1 KB). Loaded Objects now: 3572.
+Memory consumption went from 131.0 MB to 130.9 MB.
+Total: 6.759000 ms (FindLiveObjects: 0.443600 ms CreateObjectMapping: 0.265600 ms MarkObjects: 5.815100 ms  DeleteObjects: 0.233000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013557 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.234 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2235ms)
+		BeginReloadAssembly (322ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1674ms)
+			LoadAssemblies (250ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (585ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (710ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (503ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.3 KB). Loaded Objects now: 3575.
+Memory consumption went from 129.5 MB to 129.5 MB.
+Total: 9.152700 ms (FindLiveObjects: 0.445900 ms CreateObjectMapping: 0.389400 ms MarkObjects: 8.053100 ms  DeleteObjects: 0.262000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022467 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.889 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1898ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1422ms)
+			LoadAssemblies (192ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (483ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (562ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (125ms)
+				ProcessInitializeOnLoadAttributes (355ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.3 KB). Loaded Objects now: 3578.
+Memory consumption went from 129.5 MB to 129.5 MB.
+Total: 5.632600 ms (FindLiveObjects: 0.500700 ms CreateObjectMapping: 0.561900 ms MarkObjects: 4.398100 ms  DeleteObjects: 0.169700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027072 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.095 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3097ms)
+		BeginReloadAssembly (378ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (90ms)
+		EndReloadAssembly (2396ms)
+			LoadAssemblies (320ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (860ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (974ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (180ms)
+				ProcessInitializeOnLoadAttributes (653ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.3 KB). Loaded Objects now: 3581.
+Memory consumption went from 129.6 MB to 129.5 MB.
+Total: 10.940300 ms (FindLiveObjects: 1.119900 ms CreateObjectMapping: 0.787000 ms MarkObjects: 8.701600 ms  DeleteObjects: 0.329100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023644 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.854 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2856ms)
+		BeginReloadAssembly (319ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (80ms)
+		EndReloadAssembly (2246ms)
+			LoadAssemblies (270ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (759ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (112ms)
+			SetupLoadedEditorAssemblies (933ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (625ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 13.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.4 KB). Loaded Objects now: 3584.
+Memory consumption went from 129.6 MB to 129.5 MB.
+Total: 8.970100 ms (FindLiveObjects: 1.231700 ms CreateObjectMapping: 0.507400 ms MarkObjects: 6.662600 ms  DeleteObjects: 0.564600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.015858 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.970 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2972ms)
+		BeginReloadAssembly (329ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2328ms)
+			LoadAssemblies (279ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (821ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (946ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (35ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (631ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (28ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.4 KB). Loaded Objects now: 3587.
+Memory consumption went from 129.6 MB to 129.5 MB.
+Total: 6.936000 ms (FindLiveObjects: 0.748300 ms CreateObjectMapping: 0.223500 ms MarkObjects: 5.762800 ms  DeleteObjects: 0.198600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 253250.817794 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba70174b48c72618337ade0401c56712') in 1.499296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.109067 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1541093a7422aefb6c633abee250ffa2') in 0.056682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.548032 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece96a83d4b73e0afbbf7b864b863c78') in 0.066516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.810834 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46974d3e242e75b9a4ffb8b21c4ed4f8') in 0.141052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.658067 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d0cf4188ac37e4207bb69dfb116ed0') in 0.065119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.797126 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c27a3ac66b7b46dd29a76289021f6a3') in 0.071143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.293898 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b092900957fc7c6cab2c0e6e25631691') in 0.128794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.917314 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6574e95f106fb7a547574a656eb5e9d9') in 0.056116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.818682 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f6e6a47b5c48b328fc03be24d17132') in 0.080093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.583105 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57af6fe98289d6e07406c9f56ed49ba7') in 0.107013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.339473 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac938ee70e75d095a40962e6eef54920') in 0.097512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.539301 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f860a5938fb71270979d365f7db7594') in 0.162026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.845060 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2651dcf6664ae67f7082b226578eb03b') in 0.067209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.185070 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22144bdda05381a3d7debf035b1f142d') in 0.060641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.727157 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b950df90ad5eeb6ddd41311b55689439') in 0.077756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.984191 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edc73ff3631850cbbe4a191d90186f9') in 0.053493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.064683 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54f557b9e40c4d505d72da21de3f5cc') in 0.067923 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.606655 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5343bdbc609629293d0c20f08bc6fbc') in 0.608865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.716516 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7311e28e5d4b7e2138c0749c6c8ab0') in 0.086459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.451023 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f187caa29b7eb08679de9fe3a2bd4bfa') in 0.086535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.613097 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4dcc585bbb78300968f0b19b9509e12') in 0.077517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.149428 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad93852bbcfd1b6a82b4fa08888f81e') in 0.107551 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.304571 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885b4a83622100a356086b3858d4925c') in 0.165012 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.667934 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5755b3ebd7060fef0a2f7e6b6533fade') in 0.126249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.684114 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe8e0742663df4889077f05a89635f4') in 0.129125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 52.249416 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69a195f9617d72817185bb0e9d0abe6a') in 0.155514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.838204 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511d6a723620fb6bbb94217556b7288d') in 0.065451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.501019 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1278b794141292c154f9ecd38862a8a5') in 0.062652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.930918 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8d00e8a77bbc8a8fc576282a4fdf436') in 0.068305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.043018 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1881e53b7d4b5dc18b8ec0f188854fa') in 0.095093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.825082 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac732a527251e7524d6e0c6aacfd48c') in 0.061915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.276001 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ad30fa745b0e2a2cfecfa3438abc35') in 0.085485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.464375 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa56fc57b087368b85c15160887279b0') in 0.121377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.443321 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249aedb75c48088bb8649a3d587cac72') in 0.069420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.266561 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1a5795ba66b70b532313590a13c3b5') in 0.061773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.101025 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4dd6fde0a60bc1f43aa7b31478c8a91') in 0.081889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 87.040793 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f6c81ae837f485e8ea4149cd6b6b4c') in 0.053315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.205329 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0631db70bf31da008948d1d41e6fb7d9') in 0.033201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.204053 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9858c2f8048907a36ebee2cc4f4024cd') in 0.034739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.965801 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848d88e41ec8048c93f87bc5342b44dd') in 0.253790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.312240 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9d3bfb429e5361b71a9a11b850eb82') in 0.036194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.689426 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19826a2dc8f8900a58fc6dc08d538aa2') in 0.042624 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.946200 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5b5d0847c9d66896c8fb6085171e6c1') in 0.037956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.273334 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed93cf122c668594ee073c0cfbfab4be') in 0.036018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.906840 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab83cacaa82d7a32508ebc0e7dda6ec') in 0.033214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.002732 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f148a7e6fea5665fd38bc55053af10ea') in 0.065275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.217342 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24dff73d69fb9cb38d6cfa341e797602') in 0.035463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.108598 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ff10e2157a552c6547164d96abe75cd') in 0.032121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.378381 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3d7ecfb934a3506bf98debc5a3fc41') in 0.033735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.183096 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a271f97a68300570d2e79cb11fc803') in 0.372745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.492625 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0343f71195745e92a036cc00212e055d') in 0.037165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.271784 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08345c00d2ac2f1eca9a0a2ebd1bb5a8') in 0.036152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.727859 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dbd7500fa146aca380e26bd50c78dd') in 0.043649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.474410 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277d8200c811932650a0157c7f4da89b') in 0.205989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.821868 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '422a09fcc8d2cffb2533162fbdcf7eda') in 0.035794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.171237 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e46a13587ab3fbe87b0320b2bc6519f4') in 0.036011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.356599 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6780e86337f705eabfe1e24ef8f0cf4c') in 0.036881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.373822 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4443851779e6cae3cb269a28e11a5daf') in 0.085940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.459471 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb147d27162e1b7bc40b6c8028ebc794') in 0.043479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.269062 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63695cade4feccdffa90271ef827c6d3') in 0.032939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.624770 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a8cdd889f693e082ec1938345bc137') in 0.041077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.424418 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0174563511d931aa627721c5ade91706') in 0.060158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.771662 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4033671ed8bec26778c5987c9c3687d') in 0.039892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.763999 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b14ffa9ff7dbb7ce3e5a15aceff4976') in 0.030534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.472916 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca02feb3117af8c06d68ad089e344e52') in 0.035024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.621854 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df53030946943c64e9295b71dddbdec') in 0.053379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.255948 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8de5926bd83d518d3342cbd2abceff1') in 0.040960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.496714 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aed732fee105dbe3dc137ab33be3e37') in 0.038763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.944530 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e43ab1f0c03c555a7ddfd752aec7481') in 0.034031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.388213 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d0e76834dbf1e732887a1278518864') in 0.063745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.657584 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a25d3a52d1205ee4e292ced1578b538') in 0.036623 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014143 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.903 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3906ms)
+		BeginReloadAssembly (773ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (321ms)
+		EndReloadAssembly (2765ms)
+			LoadAssemblies (432ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1118ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (1035ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (182ms)
+				ProcessInitializeOnLoadAttributes (724ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (25ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (84.0 KB). Loaded Objects now: 3599.
+Memory consumption went from 134.2 MB to 134.1 MB.
+Total: 13.017200 ms (FindLiveObjects: 0.826000 ms CreateObjectMapping: 0.545100 ms MarkObjects: 11.048300 ms  DeleteObjects: 0.594300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 941.002848 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42715abd4b67672e63e1e35b4023447b') in 0.851651 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016641 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.797 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1798ms)
+		BeginReloadAssembly (254ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1300ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (454ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (510ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (332ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (82.1 KB). Loaded Objects now: 3602.
+Memory consumption went from 134.2 MB to 134.1 MB.
+Total: 5.580500 ms (FindLiveObjects: 0.358900 ms CreateObjectMapping: 0.112800 ms MarkObjects: 4.796100 ms  DeleteObjects: 0.310400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 389.939188 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894ac3440f55f419284dd08e1f9dc9f9') in 0.274605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Assets3D/Prefabs/Cameras/Main Camera.prefab
+  artifactKey: Guid(f346db09724f2494c9b1550670484c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Cameras/Main Camera.prefab using Guid(f346db09724f2494c9b1550670484c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c184e70ecf51d10944d5c95e1edee85') in 0.164865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Assets3D/Prefabs/ShipMontage_Prefabs/PlayerShip_SharkShip.prefab
+  artifactKey: Guid(78e2715e453ea6049a3f454d663f7249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/ShipMontage_Prefabs/PlayerShip_SharkShip.prefab using Guid(78e2715e453ea6049a3f454d663f7249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'accfe8f4711b9b97f88b90f50649896c') in 0.674567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.949041 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a08de1d694d90f639721fce5c0c8f59') in 0.178474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.738507 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab8060add0005d3e3dac41ed1a522ebe') in 0.039373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.501800 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaaf709162ff50de1ccc0523b8e89f8') in 0.038395 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017679 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.783 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2785ms)
+		BeginReloadAssembly (317ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2147ms)
+			LoadAssemblies (291ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (768ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (122ms)
+			SetupLoadedEditorAssemblies (866ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (572ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (82.9 KB). Loaded Objects now: 3606.
+Memory consumption went from 134.2 MB to 134.2 MB.
+Total: 8.709300 ms (FindLiveObjects: 0.410000 ms CreateObjectMapping: 0.196500 ms MarkObjects: 7.735500 ms  DeleteObjects: 0.364400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 116.747393 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaaf709162ff50de1ccc0523b8e89f8') in 0.191579 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.025084 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.662 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2664ms)
+		BeginReloadAssembly (273ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (2122ms)
+			LoadAssemblies (249ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (700ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (127ms)
+			SetupLoadedEditorAssemblies (892ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (589ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (82.2 KB). Loaded Objects now: 3609.
+Memory consumption went from 134.2 MB to 134.2 MB.
+Total: 9.197400 ms (FindLiveObjects: 0.856700 ms CreateObjectMapping: 0.244500 ms MarkObjects: 7.531700 ms  DeleteObjects: 0.561500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 35.763749 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d0c82274150f24d76d8dd4df714d5d') in 0.179193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.885813 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab
+  artifactKey: Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyStalker.prefab using Guid(289948c094bdd7e42904ee13ba86253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a22e30d6423efc515da8e125fe5176') in 0.039515 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.769010 seconds.
+  path: Assets/Assets3D/Prefabs/Enemys/EnemyTeleporter.prefab
+  artifactKey: Guid(4a8d9a2d32bcd6447bf7f516db1d38f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Enemys/EnemyTeleporter.prefab using Guid(4a8d9a2d32bcd6447bf7f516db1d38f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81e1c5dde2563e73960f36d2d1cb705') in 0.105761 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020210 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.729 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2731ms)
+		BeginReloadAssembly (331ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (2133ms)
+			LoadAssemblies (298ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (756ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (114ms)
+			SetupLoadedEditorAssemblies (875ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (577ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (82.3 KB). Loaded Objects now: 3613.
+Memory consumption went from 146.8 MB to 146.8 MB.
+Total: 9.426400 ms (FindLiveObjects: 0.522400 ms CreateObjectMapping: 0.413900 ms MarkObjects: 7.759800 ms  DeleteObjects: 0.726000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 87.493499 seconds.
+  path: Assets/Assets3D/Prefabs/Ship/Ammunition.prefab
+  artifactKey: Guid(e0b39cd61b7dfa747947c916a8fb1928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Ship/Ammunition.prefab using Guid(e0b39cd61b7dfa747947c916a8fb1928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd91f7aeec6d7fa3d6ec92146208ff7') in 0.148634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.828653 seconds.
+  path: Assets/Assets3D/Prefabs/Ship/Ammunition.prefab
+  artifactKey: Guid(e0b39cd61b7dfa747947c916a8fb1928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets3D/Prefabs/Ship/Ammunition.prefab using Guid(e0b39cd61b7dfa747947c916a8fb1928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697da33e0ee396c30f538784f3f3381a') in 0.021334 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.023181 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.595 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2597ms)
+		BeginReloadAssembly (283ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2060ms)
+			LoadAssemblies (248ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (693ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (856ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (566ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (81.4 KB). Loaded Objects now: 3616.
+Memory consumption went from 146.8 MB to 146.7 MB.
+Total: 8.580800 ms (FindLiveObjects: 1.119200 ms CreateObjectMapping: 0.459300 ms MarkObjects: 6.563100 ms  DeleteObjects: 0.435500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016525 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Produções PUC\Jogo SHOTTEMUP\Alivasion\Projeto Unity\Alivasion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.797 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2800ms)
+		BeginReloadAssembly (330ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2161ms)
+			LoadAssemblies (295ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (699ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (127ms)
+			SetupLoadedEditorAssemblies (926ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (626ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (82.1 KB). Loaded Objects now: 3619.
+Memory consumption went from 147.0 MB to 146.9 MB.
+Total: 5.526900 ms (FindLiveObjects: 0.404600 ms CreateObjectMapping: 0.166700 ms MarkObjects: 4.758500 ms  DeleteObjects: 0.194900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

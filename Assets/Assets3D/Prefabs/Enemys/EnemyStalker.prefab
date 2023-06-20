@@ -52,6 +52,7 @@ MonoBehaviour:
   hasDestroyedByPlayer: 0
   scorePlacar: {fileID: 0}
   killValue: 1
+  explosion: {fileID: 460895175262926601, guid: 9d35c0b4b46d14b47981291a5c3bcbd2, type: 3}
 --- !u!136 &5422214379392618955
 CapsuleCollider:
   m_ObjectHideFlags: 0
