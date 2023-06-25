@@ -19,6 +19,7 @@ public class ShipMontage : MonoBehaviour
     public void ShipChange(int shipIndex)
     {
         ships[shipIndex].gameObject.GetComponent<MeshRenderer>().enabled = true;
+        GameManager.shipType = "PlayerShip_"+ships[shipIndex].gameObject.name;
         
         for(int cont = 0; cont < transform.childCount; cont++)
         {

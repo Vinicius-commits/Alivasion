@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3513267900433660120}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.020733, y: -2.13637, z: 12.120061}
+  m_LocalPosition: {x: 6.18, y: -1.2, z: 12.12}
   m_LocalScale: {x: 2.350397, y: 2.350397, z: 2.350397}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -55,7 +55,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4222798548218538141}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.36, y: -2.13637, z: 12.12}
+  m_LocalPosition: {x: -6.09, y: -1.2, z: 12.12}
   m_LocalScale: {x: 2.350397, y: 2.350397, z: 2.350397}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -130,11 +130,6 @@ MonoBehaviour:
   speed: 0
   shipTransform: {fileID: 0}
   aimTransform: {fileID: 0}
-  cam: {fileID: 0}
-  cameraMinX: 0
-  cameraMaxX: 0
-  cameraMinY: 0
-  cameraMaxY: 0
   screenHeight: 0
   screenWidth: 0
   xmin: 0
@@ -265,7 +260,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6197166983412021358}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.4, y: 1.3178406, z: -1.2}
+  m_LocalPosition: {x: 2.2, y: 1.2, z: 2.4}
   m_LocalScale: {x: 0.751022, y: 0.50068134, z: 0.751022}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -370,7 +365,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6227997881916592564}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.8, y: 1.3, z: -1}
+  m_LocalPosition: {x: -2.4, y: 1.2, z: 2.4}
   m_LocalScale: {x: 0.75, y: 0.5, z: 0.75}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -479,7 +474,7 @@ Transform:
   m_GameObject: {fileID: 8336335667975275315}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6722486819150963412}
@@ -683,8 +678,8 @@ MonoBehaviour:
   gettingDamage_audio: {fileID: 8300000, guid: 884a08f3ad0360341a332c693eb4d5fe, type: 3}
   canGetDamage: 1
   pickUpPwr_audio: {fileID: 8300000, guid: f8bba60ea972f6d43b99837b97cb4acc, type: 3}
-  shield: {fileID: 0}
   pwrUp_Slots: {fileID: 0}
+  shield: {fileID: 0}
   distanceInterPwrUpSlots: 0
 --- !u!1001 &1430506014448366859
 PrefabInstance:

@@ -22,7 +22,8 @@ public class Collisions_Ship : MonoBehaviour
     //Getting PwrUp
     public Stack<GameObject> pwrUps = new Stack<GameObject>();
     [SerializeField] AudioClip pickUpPwr_audio;
-    [SerializeField] GameObject shield, pwrUp_Slots;
+    //[SerializeField] List<GameObject[]> shields = new List<GameObject[]>();
+    [SerializeField] GameObject pwrUp_Slots, shield;
     [SerializeField] float distanceInterPwrUpSlots;
 
     void Start()
@@ -39,10 +40,15 @@ public class Collisions_Ship : MonoBehaviour
         {
             pwrUps.Push(pwrUp_Slots.transform.GetChild(pwrCount).gameObject);
         }
-        distanceInterLifePoints = Vector3.Distance(hearts_Slots.transform.GetChild(0).transform.position, hearts_Slots.transform.GetChild(1).transform.position);
+        distanceInterLifePoints = Vector3.Distance(hearts_Slots.transform.GetChild(0).transform.position, hearts_Slots.transform.GetChild(1).transform.position);        
         distanceInterPwrUpSlots = Vector3.Distance(pwrUp_Slots.transform.GetChild(0).transform.position, pwrUp_Slots.transform.GetChild(1).transform.position);
-        shield = GameObject.Find("Shield");
-        shield.SetActive(false);
+        //shields.Add(GameObject.FindGameObjectsWithTag("Shield"));
+        shield = transform.parent.GetChild(1).gameObject;
+        // for(int i = 0; i < shields.Count; i++)
+        // {
+        //     Debug.Log(shields[0][i].name);
+        //     shields[0][i].SetActive(false);
+        // }
     }
 
     private void OnTriggerEnter(Collider other) {
@@ -64,8 +70,7 @@ public class Collisions_Ship : MonoBehaviour
             GetPwrUp();
             GetShield();
             Destroy(other.gameObject);
-        }
-        
+        }    
     }
 
     public void GetPwrUp()

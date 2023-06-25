@@ -32,20 +32,10 @@ public class GameManager : MonoBehaviour
     }
 
     private void FixedUpdate() {
-        // backgroundSound = Camera.main.GetComponent<AudioSource>();
-
-        // backgroundSound.volume = volumeMusic;
-
-        // try{
-        //     // if(volumeMusic != GameObject.Find("VolumeConfig").GetComponent<Slider>().value)
-        //     //     GameObject.Find("VolumeConfig").GetComponent<Slider>().value = volumeMusic;
-        // } catch {
-        //     Debug.Log("No founded slider");
-        // }
-
-        if(SceneDetection())
+        if(SceneChangeDetection())
         {
             CheckOutFases();
+            ChangeShip(shipType);
         }
     }
 
@@ -97,7 +87,9 @@ public class GameManager : MonoBehaviour
         fasesUnlocked = faseNumber;
     }
 
-    public bool SceneDetection()
+
+
+    public bool SceneChangeDetection()
     {
         bool changed = false;
         if(SceneManager.GetActiveScene().name != currentScene)
@@ -106,5 +98,33 @@ public class GameManager : MonoBehaviour
             changed = true;
         }
         return changed;
+    }
+
+    public bool SceneDetect(string sceneName)
+    {
+        bool verified = false;
+        if(SceneManager.GetActiveScene().name == sceneName)
+        {
+            verified = true;
+        }
+        return verified;
+    }
+
+    public void ChangeShip(string shipType)
+    {
+        if(SceneDetect("Fase1") || SceneDetect("Fase2"))
+        {
+            Transform ships = GameObject.Find("Ships").transform;
+            for(int i = 0; i < ships.childCount; i++)
+            {
+                if(ships.GetChild(i).gameObject.name == GameManager.shipType)
+                {
+                    ships.GetChild(i).gameObject.SetActive(true);
+                } else {
+                    ships.GetChild(i).gameObject.SetActive(false);
+                }
+
+            }
+        }
     }
 }

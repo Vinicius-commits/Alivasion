@@ -9,15 +9,12 @@ public class Ship : MonoBehaviour
     [SerializeField] Ray ray;
     [SerializeField] RaycastHit hit;
     [SerializeField] Transform shipTransform, aimTransform;
-    
-    [SerializeField] Camera cam;
-    [SerializeField] float cameraMinX, cameraMaxX, cameraMinY, cameraMaxY, screenHeight, screenWidth;
+    [SerializeField] float screenHeight, screenWidth;
 
     [SerializeField] float xmin, xmax, zmin, zmax;
     [SerializeField] bool canTeleport = true;
 
     void Start() {
-        cam = Camera.main;
         speed = 150.0f;
         shipTransform = transform.GetChild(0);
     }

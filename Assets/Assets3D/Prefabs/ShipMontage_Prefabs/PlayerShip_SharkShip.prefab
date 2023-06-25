@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1714654866727890160, guid: 19da56cd827c44b4ebcbb6ff46d940f0, type: 3}
+  - {fileID: 2100000, guid: 9568249e8848110459197817cd183720, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -168,7 +168,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1714654866727890160, guid: 19da56cd827c44b4ebcbb6ff46d940f0, type: 3}
+  - {fileID: 2100000, guid: 9568249e8848110459197817cd183720, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -277,8 +277,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1932560521025646366, guid: a5d11720de729d64fb073bfb3f4405c1, type: 3}
-  - {fileID: -1256742835280082670, guid: a5d11720de729d64fb073bfb3f4405c1, type: 3}
+  - {fileID: 2100000, guid: a2f7b053eb6e1384b9e98b22e1c72a48, type: 2}
+  - {fileID: 2100000, guid: f0cea54089a152a4cb70bfd62d9979a7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -431,8 +431,8 @@ MonoBehaviour:
   gettingDamage_audio: {fileID: 8300000, guid: 884a08f3ad0360341a332c693eb4d5fe, type: 3}
   canGetDamage: 1
   pickUpPwr_audio: {fileID: 8300000, guid: f8bba60ea972f6d43b99837b97cb4acc, type: 3}
-  shield: {fileID: 0}
   pwrUp_Slots: {fileID: 0}
+  shield: {fileID: 0}
   distanceInterPwrUpSlots: 0
 --- !u!136 &7879409040594728701
 CapsuleCollider:
@@ -505,7 +505,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7282488269498709245}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 3.67342e-40}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 194, z: 2253}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -547,11 +547,6 @@ MonoBehaviour:
   speed: 0
   shipTransform: {fileID: 0}
   aimTransform: {fileID: 0}
-  cam: {fileID: 0}
-  cameraMinX: 0
-  cameraMaxX: 0
-  cameraMinY: 0
-  cameraMaxY: 0
   screenHeight: 0
   screenWidth: 0
   xmin: 0
@@ -696,6 +691,10 @@ PrefabInstance:
     - target: {fileID: 5521527847234611864, guid: d4527aad867b9354aa597469075ae87c, type: 3}
       propertyPath: m_Name
       value: Shield
+      objectReference: {fileID: 0}
+    - target: {fileID: 5521527847234611864, guid: d4527aad867b9354aa597469075ae87c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6593563126451703829, guid: d4527aad867b9354aa597469075ae87c, type: 3}
       propertyPath: m_RootOrder

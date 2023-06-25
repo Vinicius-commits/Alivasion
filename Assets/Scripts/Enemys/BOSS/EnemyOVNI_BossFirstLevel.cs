@@ -7,18 +7,18 @@ public class EnemyOVNI_BossFirstLevel : MonoBehaviour
     [SerializeField] List<GameObject> lifeBars;
     [SerializeField] Transform lifebar;
     [SerializeField] float speed;
+    [SerializeField] bool isFirstMove = true;
     [SerializeField] Vector3 direction, callBossPosition;
     
     private void Awake() {
         //Catch LifeBar_Background
         callBossPosition = new Vector3(0,0,20.0f);
-        transform.parent.transform.position += callBossPosition;
         lifebar = GameObject.Find("BOSSLifeBar").transform.GetChild(0);
         lifebar.gameObject.SetActive(false);
     }
     void Start()
     {
-        speed = 5.0f;
+        speed = 2.0f;
         direction = Vector3.forward;
         for(int i = 0; i < lifebar.GetChild(0).transform.childCount; i++)
         {
@@ -34,25 +34,40 @@ public class EnemyOVNI_BossFirstLevel : MonoBehaviour
     private void OnEnable() {
         lifebar.gameObject.SetActive(true);
     }
+    
     private void OnDisable() {
         lifebar.gameObject.SetActive(false);
     }
 
-    private void OnCollisionEnter(Collision other) {
-        
-    }
-
-    private void OnDestroy() {
-        
-    }
-
     public void Movement()
     {
-        if(transform.parent.position.z < 2119.0f)
+        if(transform.parent.localPosition.z < 2119.0f)
         {
             callBossPosition.z = 0.5f;
-            transform.parent.transform.position += callBossPosition;
+            transform.parent.transform.localPosition += callBossPosition * speed;
+            return;
+        } else {
+            if(isFirstMove)
+            {
+                speed = 2.0f;
+                callBossPosition.z = 0f;
+                
+            }
+
+            if(transform.parent.localPosition.x <= -245.0f)
+            {
+                callBossPosition.x = 0.5f;
+            } else if(transform.parent.localPosition.x >= 245.0f)
+            {
+                callBossPosition.x = -0.5f;
+            } else if(isFirstMove && (transform.parent.localPosition.x < 245.0f) && (transform.parent.localPosition.x > -245.0f))
+            {
+                callBossPosition.x = 0.5f;
+                isFirstMove = false;
+            }
+            transform.parent.transform.localPosition += callBossPosition * speed;
         }
+        
     }
 
     public void Attack()
