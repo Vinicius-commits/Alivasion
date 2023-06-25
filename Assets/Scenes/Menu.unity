@@ -1523,6 +1523,83 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneName: 
+--- !u!1001 &1820498834
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 24.13
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -11.11
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 76.81
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.99193877
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.12671834
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 14.56
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_Name
+      value: Alivasion_Assistent_Jorginho
+      objectReference: {fileID: 0}
+    - target: {fileID: 2223639932434330405, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: 8209987354642751211, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+    - target: {fileID: 2223639932434330405, guid: e23addb67392cbd408527cf79a03a550, type: 3}
+      propertyPath: m_CullingType
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e23addb67392cbd408527cf79a03a550, type: 3}
 --- !u!1 &1853596335
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,6 +8,7 @@ public class EnemyOVNI_BossSecondLevel : MonoBehaviour
     [SerializeField] Transform lifebar;
     [SerializeField] float speed;
     [SerializeField] Vector3 direction, callBossPosition;
+    [SerializeField] bool inAttack = false, canAttack = false;
     
     private void Awake() {
         //Catch LifeBar_Background
@@ -37,14 +38,55 @@ public class EnemyOVNI_BossSecondLevel : MonoBehaviour
         lifebar.gameObject.SetActive(false);
     }
 
+    public void InitialMovement()
+    {
+        if(transform.parent.localPosition.z < 2119.0f && !inAttack)
+        {
+            callBossPosition.z = 0.5f;
+            transform.parent.transform.localPosition += callBossPosition * speed;
+        } else if(transform.parent.localPosition.z >= 2119.0f && !inAttack)
+        {
+            canAttack = true;
+        }
+    }
+
     public void Movement()
     {
-        
+        InitialMovement();
+        Attack();
+        FinalMovement();
     }
-    
+
+    public void FinalMovement()
+    {
+        if(transform.parent.localPosition.z > 1996.0f && !inAttack)
+        {
+            callBossPosition.z = -0.5f;
+            transform.parent.transform.localPosition += callBossPosition * speed;
+        }
+    }
+
     public void Attack()
     {
-        
+        if(!inAttack && canAttack)
+        {    
+            inAttack = true;
+            
+        }
+    }
+
+    public bool GenericTimer(float interval)
+    {
+        float timing = 0;
+        while(true)
+        {
+            timing += Time.deltaTime;
+            if(timing >= interval)
+            {
+                break;
+            }
+        }
+        return true;
     }
 
     public void GetDamage()

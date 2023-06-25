@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\Generic\Loader.cs" />
      <Compile Include="Assets\Scripts\Enemys\Instantiate_EnemyOVNI.cs" />
      <Compile Include="Assets\Scripts\Nave\Shooter.cs" />
+     <Compile Include="Assets\Scripts\Enemys\BOSS\EnemyOVNI_BossSecondLevel.cs" />
      <Compile Include="Assets\Scripts\Generic\LevelManagement.cs" />
      <Compile Include="Assets\Scripts\Generic\ShipMontage.cs" />
      <Compile Include="Assets\Scripts\Generic\GameManager.cs" />
@@ -59,7 +60,6 @@
      <Compile Include="Assets\Scripts\Hud\MoveInScene.cs" />
      <Compile Include="Assets\Scripts\Enemys\EnemyGun_TeleporterGun.cs" />
      <Compile Include="Assets\Scripts\Nave\Collisions_Ship.cs" />
-     <Compile Include="Assets\Scripts\Enemys\BOSS\EnemyOVNI_BossSecondLevel.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
